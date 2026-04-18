@@ -255,22 +255,22 @@ export default async function VisionPage({ params }: VisionPageProps) {
               to build for.
             </p>
             <p className="mt-6 text-[var(--text-body-lg)] text-ash leading-relaxed">
-              If the thesis on this page resonates with you — whether you are a government, an
-              investor, a journalist, a builder, or someone looking for a place to do the most
-              important work of your career — we would like to hear from you.
+              If the thesis on this page resonates with you — whether you represent a government, a
+              fund, a newsroom, or a team looking for the most consequential work of a generation
+              — the appropriate channels are below.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.3}>
             <div className="mt-12 flex flex-wrap justify-center gap-4">
               <Button variant="primary" size="lg" href={`${prefix}/partners`}>
-                Partner with us
+                Institutional partnerships
               </Button>
               <Button variant="secondary" size="lg" href={`${prefix}/careers`}>
-                Work with us
+                Careers at Njoh Group
               </Button>
               <Button variant="ghost" size="lg" href={`${prefix}/contact`}>
-                Contact the team
+                General inquiries
               </Button>
             </div>
           </FadeIn>

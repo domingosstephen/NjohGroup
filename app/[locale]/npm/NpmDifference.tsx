@@ -11,7 +11,7 @@ export function NpmDifference() {
         <FadeIn>
           <MonoLabel className="text-njoh-gold">THE MODEL</MonoLabel>
           <h2 className="mt-4 font-display text-[var(--text-h1)] text-ivory leading-tight max-w-2xl">
-            A fixed commission. Full transparency. No hidden costs.
+            One commission. Complete alignment.
           </h2>
           <GoldRule width="60px" className="mt-6" />
         </FadeIn>
@@ -22,9 +22,9 @@ export function NpmDifference() {
             <div className="space-y-8">
               <div>
                 <p className="text-ash text-[var(--text-body-lg)] leading-relaxed">
-                  We charge a fixed percentage commission on rent collected. That is the only
-                  fee you pay. There are no onboarding charges, no hidden management fees,
-                  and no surprise deductions.
+                  The structure is deliberately simple: a fixed percentage of rent collected.
+                  If the property earns, we earn. If it does not, we do not. There are no
+                  onboarding charges, no layered fees, and no surprise deductions.
                 </p>
               </div>
               <div>
@@ -45,7 +45,7 @@ export function NpmDifference() {
           {/* Right — what you get */}
           <FadeIn delay={0.2}>
             <div className="border border-graphite/40 p-6 sm:p-8 lg:p-10">
-              <MonoLabel className="text-njoh-gold/60">INCLUDED IN YOUR COMMISSION</MonoLabel>
+              <MonoLabel className="text-njoh-gold/60">WHAT YOUR COMMISSION INCLUDES</MonoLabel>
               <div className="mt-6 space-y-5">
                 {[
                   "On-time rent collection and transfer to your account",

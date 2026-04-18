@@ -34,7 +34,7 @@ export default async function SectorsPage({ params }: SectorsPageProps) {
       paragraphs: [
         "Africa\u2019s urban population is growing faster than any region on earth. By 2050, the continent\u2019s cities will absorb roughly 900 million new residents. The demand for quality housing, commercial space, and mixed-use developments is not speculative \u2014 it is demographic certainty.",
         "Njoh Group\u2019s real estate arm develops, manages, and invests in the buildings that this urbanisation demands. We began in Cameroon with Njoh Property Management and are building toward a pan-African portfolio anchored in fundamentals, not hype.",
-        "Our approach is institutional-grade from day one: professional management, transparent reporting, AI-powered operations, and a long-term hold philosophy.",
+        "Our approach is institutional from day one: professional management, transparent reporting, technology-driven operations, and a long-term hold philosophy.",
       ],
       image: "/images/sectors/real-estate.jpg",
     },
@@ -42,8 +42,8 @@ export default async function SectorsPage({ params }: SectorsPageProps) {
       ...SECTORS[1],
       paragraphs: [
         "African professionals already serve as the backbone of global business services \u2014 from customer support to software engineering. But the value chain is designed to extract talent from the continent, not build it.",
-        "Njoh Group is building BPO and tech-outsourcing companies that keep more value in Africa. Our firms combine world-class African talent with AI-native tooling to compete at the highest tier of the global market.",
-        "The goal is not cheap labour arbitrage. It is premium service delivery at structurally competitive cost \u2014 because the talent is genuinely excellent and the AI layer multiplies output.",
+        "Njoh Group is building BPO and tech-outsourcing firms that retain more value on the continent. Our companies combine exceptional African talent with modern tooling to compete at the highest tier of the global market.",
+        "The goal is not cheap labour arbitrage. It is premium service delivery at structurally competitive cost \u2014 because the talent is genuinely excellent and the technology layer multiplies output.",
       ],
       image: "/images/sectors/outsourcing.jpg",
     },
@@ -253,7 +253,7 @@ export default async function SectorsPage({ params }: SectorsPageProps) {
           <FadeIn delay={0.2}>
             <div className="mt-12">
               <Button variant="secondary" size="lg" href={`${prefix}/sectors/emerging`}>
-                Explore emerging sectors
+                View emerging sectors
               </Button>
             </div>
           </FadeIn>

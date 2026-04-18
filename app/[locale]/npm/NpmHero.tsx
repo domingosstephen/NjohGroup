@@ -56,9 +56,9 @@ export function NpmHero() {
               animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
             >
-              We collect the rent.{" "}
+              The standard of management{" "}
               <br className="hidden sm:block" />
-              <span className="text-njoh-gold">You collect the returns.</span>
+              <span className="text-njoh-gold">Cameroon&apos;s rental market deserves.</span>
             </motion.h1>
 
             <motion.div
@@ -76,9 +76,9 @@ export function NpmHero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.8 }}
             >
-              Register your rental property with us. We handle tenant compliance,
-              on-time rent collection, maintenance, and reporting — for a fixed
-              commission. No surprises. No chasing.
+              Serious property investors do not manage tenants themselves. They
+              retain an institution that collects rent on time, enforces lease terms,
+              and protects the value of the asset. That institution now exists in Cameroon.
             </motion.p>
 
             <motion.div
@@ -97,7 +97,7 @@ export function NpmHero() {
                 href="#how-it-works"
                 className="inline-flex items-center justify-center gap-2 border border-ivory/20 text-ivory px-8 py-4 text-base font-medium font-body uppercase tracking-wider hover:border-ivory/40 transition-colors duration-300"
               >
-                How it works
+                See the model
               </a>
             </motion.div>
 

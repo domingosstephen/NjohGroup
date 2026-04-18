@@ -49,28 +49,28 @@ Notes: ${(form.elements.namedItem("message") as HTMLTextAreaElement).value || "N
           {/* Left */}
           <FadeIn>
             <div>
-              <MonoLabel className="text-obsidian/40">REGISTER YOUR PROPERTY</MonoLabel>
+              <MonoLabel className="text-obsidian/40">PROPERTY REGISTRATION</MonoLabel>
               <h2 className="mt-4 font-display text-[var(--text-h1)] text-obsidian leading-tight">
-                Let us manage your property. You focus on what matters.
+                Formal management begins with a formal process.
               </h2>
               <GoldRule width="60px" className="mt-6" />
               <p className="mt-6 text-obsidian/70 text-lg leading-relaxed">
-                Whether you own a single apartment in Yaoundé or a portfolio of
-                rental buildings across Cameroon, we would like to show you what
-                professional property management delivers.
+                Property registration is the first step toward institutional
+                management. Whether the asset is a single unit in Yaoundé or a
+                portfolio across Cameroon, the process is the same.
               </p>
               <p className="mt-4 text-obsidian/60 leading-relaxed">
-                Complete the form and our team will contact you within 48 hours
-                to schedule a property assessment — at no cost and no obligation.
+                Submit your property details below. Our team will contact you
+                within 48 hours to conduct an initial assessment.
               </p>
 
               <div className="mt-10 space-y-5">
                 {[
-                  "Free property assessment",
-                  "Fixed commission — agreed upfront, no surprises",
-                  "Monthly income transfers on a set date",
-                  "Full financial reporting from day one",
-                  "No lock-in — leave on standard notice",
+                  "Initial property assessment at no cost",
+                  "Commission agreed during onboarding and fixed thereafter",
+                  "Rental income transferred on a set monthly date",
+                  "Full financial reporting from commencement",
+                  "Standard-notice termination — no lock-in period",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
                     <GoldRule width="12px" className="mt-2.5 shrink-0" />
@@ -183,7 +183,7 @@ Notes: ${(form.elements.namedItem("message") as HTMLTextAreaElement).value || "N
                   </button>
 
                   <p className="text-ash/30 text-xs text-center font-mono tracking-wider">
-                    Free assessment. No obligation. No lock-in.
+                    No cost to register. No obligation to proceed.
                   </p>
                 </form>
               )}
