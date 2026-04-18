@@ -2,66 +2,43 @@
 
 import { FadeIn } from "@/components/ui/FadeIn";
 import { GoldRule } from "@/components/brand/GoldRule";
+import { MonoLabel } from "@/components/ui/MonoLabel";
 
 export function NpmProblem() {
-  const problems = [
-    {
-      before: "Chasing tenants for rent",
-      after: "Automated collection with full tracking",
-    },
-    {
-      before: "Surprise maintenance emergencies",
-      after: "Predictive maintenance before problems hit",
-    },
-    {
-      before: "No visibility into your investment",
-      after: "Real-time dashboards and monthly reports",
-    },
-    {
-      before: "Vacant units costing you money",
-      after: "AI-optimized pricing and fast placement",
-    },
-  ];
-
   return (
-    <section className="bg-graphite py-[var(--section-padding-y)]">
-      <div className="mx-auto max-w-[1440px] px-4 sm:px-8 lg:px-12">
+    <section className="bg-ivory py-[var(--section-padding-y)]">
+      <div className="mx-auto max-w-[700px] px-4 sm:px-8 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
         <FadeIn>
-          <div className="max-w-2xl">
-            <GoldRule width="40px" className="mb-6" />
-            <h2 className="font-display text-[var(--text-h1)] text-ivory leading-tight">
-              Property ownership in Cameroon shouldn&apos;t feel like a second job.
-            </h2>
-            <p className="mt-6 text-ash text-lg leading-relaxed">
-              Most landlords and developers in Cameroon manage their own properties — or
-              rely on informal arrangements that cost more than they save. The result: lost
-              revenue, neglected buildings, and frustrated tenants.
-            </p>
-          </div>
+          <MonoLabel className="text-obsidian/40">THE PROBLEM</MonoLabel>
+          <h2 className="mt-4 font-display text-[var(--text-h1)] text-obsidian leading-tight">
+            Owning rental property in Cameroon is rewarding. Managing it is not.
+          </h2>
+          <GoldRule width="40px" className="mt-6" />
         </FadeIn>
 
-        <div className="mt-10 sm:mt-16 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-          {problems.map((item, i) => (
-            <FadeIn key={i} delay={i * 0.1}>
-              <div className="border border-graphite bg-obsidian/50 p-4 sm:p-6 lg:p-8">
-                <div className="flex items-start gap-4">
-                  <span className="text-terracotta shrink-0 mt-1 text-lg" aria-hidden="true">
-                    &times;
-                  </span>
-                  <div>
-                    <p className="text-ash/70 line-through text-sm">{item.before}</p>
-                    <div className="flex items-start gap-3 mt-3">
-                      <span className="text-njoh-gold shrink-0 mt-0.5" aria-hidden="true">
-                        &check;
-                      </span>
-                      <p className="text-ivory font-medium text-sm sm:text-base">{item.after}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </FadeIn>
-          ))}
-        </div>
+        <FadeIn delay={0.15}>
+          <p className="mt-8 text-obsidian/70">
+            Tenants pay late — or not at all. Lease terms go unenforced. Maintenance
+            issues pile up. You spend your time chasing problems instead of earning
+            from your investment. And the informal arrangements most landlords rely on
+            offer no accountability, no reporting, and no recourse.
+          </p>
+        </FadeIn>
+
+        <FadeIn delay={0.2}>
+          <p className="mt-6 text-obsidian/70">
+            Your property is a serious asset. It deserves serious management.
+          </p>
+        </FadeIn>
+
+        <FadeIn delay={0.25}>
+          <p className="mt-6 font-medium text-obsidian">
+            Njoh Property Management exists to solve this. You register your property
+            with us. We take over the full operational burden — rent collection, tenant
+            compliance, maintenance, reporting — for a fixed, transparent commission.
+            You receive your rental income on time, every month.
+          </p>
+        </FadeIn>
       </div>
     </section>
   );

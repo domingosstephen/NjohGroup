@@ -1,47 +1,38 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { Logo } from "@/components/brand/Logo";
 import { GoldRule } from "@/components/brand/GoldRule";
 import { MonoLabel } from "@/components/ui/MonoLabel";
 import { SpotlightBeam } from "@/components/ui/SpotlightBeam";
+import { TopographicArc } from "@/components/brand/TopographicArc";
 
 export function NpmHero() {
   return (
     <section className="relative min-h-screen flex flex-col overflow-hidden bg-obsidian">
-      {/* Background — warm Cameroon cityscape */}
-      <motion.div
-        className="absolute inset-0"
-        initial={{ scale: 1 }}
-        animate={{ scale: 1.04 }}
-        transition={{ duration: 10, ease: "linear" }}
-      >
-        {/* PLACEHOLDER — replace with Cameroon property photography */}
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920&q=80')",
-          }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-obsidian via-obsidian/80 to-obsidian" />
-        <div className="absolute inset-0 bg-gradient-to-r from-obsidian/90 to-transparent" />
-      </motion.div>
+      {/* Background layers */}
+      <div className="absolute inset-0">
+        <div className="absolute inset-0 bg-gradient-to-b from-obsidian via-obsidian/95 to-obsidian" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(212,162,76,0.08),transparent)]" />
+      </div>
 
       <SpotlightBeam
         className="-top-20 -left-10 md:left-40 z-[2]"
         fill="#D4A24C"
       />
 
+      <div className="absolute inset-0 flex items-end pointer-events-none z-[1]">
+        <TopographicArc opacity={0.08} className="w-full" />
+      </div>
+
       {/* Minimal nav */}
       <div className="relative z-10 flex items-center justify-between px-4 sm:px-8 lg:px-12 py-6">
         <Logo size="sm" />
         <a
-          href="#contact"
-          className="hidden sm:inline-flex items-center gap-2 bg-njoh-gold text-obsidian px-5 py-2.5 text-sm font-medium uppercase tracking-wider hover:bg-gold-light transition-colors"
+          href="#register"
+          className="hidden sm:inline-flex items-center gap-2 border border-njoh-gold/60 text-njoh-gold px-5 py-2.5 text-sm font-body uppercase tracking-wider hover:bg-njoh-gold hover:text-obsidian transition-colors duration-300"
         >
-          Get a quote
+          Register your property
         </a>
       </div>
 
@@ -55,7 +46,7 @@ export function NpmHero() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <MonoLabel className="text-njoh-gold">
-                NJOH PROPERTY MANAGEMENT · CAMEROON
+                NJOH PROPERTY MANAGEMENT
               </MonoLabel>
             </motion.div>
 
@@ -65,8 +56,9 @@ export function NpmHero() {
               animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
             >
-              Your property in Cameroon,{" "}
-              <span className="text-njoh-gold">managed like an institution.</span>
+              We collect the rent.{" "}
+              <br className="hidden sm:block" />
+              <span className="text-njoh-gold">You collect the returns.</span>
             </motion.h1>
 
             <motion.div
@@ -84,9 +76,9 @@ export function NpmHero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.8 }}
             >
-              We manage residential and commercial properties with AI-powered
-              operations, transparent reporting, and the professionalism your
-              investment deserves. Based in Yaoundé. Operating since 2021.
+              Register your rental property with us. We handle tenant compliance,
+              on-time rent collection, maintenance, and reporting — for a fixed
+              commission. No surprises. No chasing.
             </motion.p>
 
             <motion.div
@@ -96,35 +88,37 @@ export function NpmHero() {
               transition={{ duration: 0.6, delay: 1.1 }}
             >
               <a
-                href="#contact"
-                className="inline-flex items-center justify-center gap-2 bg-njoh-gold text-obsidian px-8 py-4 text-base font-medium uppercase tracking-wider hover:bg-gold-light transition-colors"
+                href="#register"
+                className="inline-flex items-center justify-center gap-2 bg-njoh-gold text-obsidian px-8 py-4 text-base font-medium font-body uppercase tracking-wider hover:bg-gold-light transition-colors duration-300"
               >
-                Get started today
+                Register your property
               </a>
               <a
-                href="#services"
-                className="inline-flex items-center justify-center gap-2 border border-njoh-gold text-njoh-gold px-8 py-4 text-base font-medium uppercase tracking-wider hover:bg-njoh-gold/10 transition-colors"
+                href="#how-it-works"
+                className="inline-flex items-center justify-center gap-2 border border-ivory/20 text-ivory px-8 py-4 text-base font-medium font-body uppercase tracking-wider hover:border-ivory/40 transition-colors duration-300"
               >
-                See our services
+                How it works
               </a>
             </motion.div>
 
             <motion.div
-              className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2"
+              className="mt-10 pt-8 border-t border-graphite/40 flex flex-wrap items-center gap-x-8 gap-y-3"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.5 }}
             >
-              {["AI-Powered Operations", "Bilingual (EN/FR)", "Since 2021"].map(
-                (tag) => (
-                  <span
-                    key={tag}
-                    className="font-mono text-[0.625rem] uppercase tracking-[0.1em] text-ash/60"
-                  >
-                    {tag}
-                  </span>
-                )
-              )}
+              <div>
+                <MonoLabel className="text-ash/40">BASED IN</MonoLabel>
+                <p className="text-ivory text-sm mt-1">Yaoundé, Cameroon</p>
+              </div>
+              <div>
+                <MonoLabel className="text-ash/40">OPERATING SINCE</MonoLabel>
+                <p className="text-ivory text-sm mt-1">2021</p>
+              </div>
+              <div>
+                <MonoLabel className="text-ash/40">MODEL</MonoLabel>
+                <p className="text-ivory text-sm mt-1">Fixed commission</p>
+              </div>
             </motion.div>
           </div>
         </div>

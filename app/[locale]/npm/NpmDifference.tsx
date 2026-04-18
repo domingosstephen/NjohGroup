@@ -4,55 +4,67 @@ import { FadeIn } from "@/components/ui/FadeIn";
 import { GoldRule } from "@/components/brand/GoldRule";
 import { MonoLabel } from "@/components/ui/MonoLabel";
 
-const differentiators = [
-  {
-    title: "AI-native, not AI-bolted",
-    text: "Every workflow — from tenant communications to maintenance scheduling to financial reporting — runs through AI systems built into our core operations. This is not a feature we added; it is how we operate.",
-  },
-  {
-    title: "Institutional grade, local knowledge",
-    text: "We deliver the reporting standards and operational discipline of international property firms, but with teams on the ground in Cameroon who understand local market dynamics, regulations, and culture.",
-  },
-  {
-    title: "Bilingual by default",
-    text: "Cameroon is bilingual. So are we. Every tenant communication, every owner report, and every legal document works in both English and French — without translation delays.",
-  },
-  {
-    title: "Backed by Njoh Group",
-    text: "NPM is not a solo operation. It is the real estate arm of Njoh Group PLC — a pan-African holding company with presence in Cameroon, Brazil, and Spain. Your property is managed by an institution, not a freelancer.",
-  },
-];
-
 export function NpmDifference() {
   return (
-    <section className="bg-ivory py-[var(--section-padding-y)]">
+    <section className="bg-obsidian py-[var(--section-padding-y)]">
       <div className="mx-auto max-w-[1440px] px-4 sm:px-8 lg:px-12">
         <FadeIn>
-          <MonoLabel className="text-obsidian/50">WHY NPM</MonoLabel>
-          <h2 className="mt-4 font-display text-[var(--text-h1)] text-obsidian leading-tight max-w-2xl">
-            Not just another property manager.
+          <MonoLabel className="text-njoh-gold">THE MODEL</MonoLabel>
+          <h2 className="mt-4 font-display text-[var(--text-h1)] text-ivory leading-tight max-w-2xl">
+            A fixed commission. Full transparency. No hidden costs.
           </h2>
           <GoldRule width="60px" className="mt-6" />
         </FadeIn>
 
-        <div className="mt-10 sm:mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
-          {differentiators.map((item, i) => (
-            <FadeIn key={i} delay={i * 0.1}>
-              <div className="flex gap-4 sm:gap-6">
-                <div className="shrink-0 mt-1">
-                  <div className="w-2 h-2 rounded-full bg-njoh-gold" />
-                </div>
-                <div>
-                  <h3 className="font-display text-lg text-obsidian leading-snug">
-                    {item.title}
-                  </h3>
-                  <p className="mt-3 text-obsidian/60 text-sm sm:text-base leading-relaxed">
-                    {item.text}
-                  </p>
-                </div>
+        <div className="mt-10 sm:mt-16 grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-16">
+          {/* Left — the model */}
+          <FadeIn delay={0.1}>
+            <div className="space-y-8">
+              <div>
+                <p className="text-ash text-[var(--text-body-lg)] leading-relaxed">
+                  We charge a fixed percentage commission on rent collected. That is the only
+                  fee you pay. There are no onboarding charges, no hidden management fees,
+                  and no surprise deductions.
+                </p>
               </div>
-            </FadeIn>
-          ))}
+              <div>
+                <p className="text-ash leading-relaxed">
+                  If we do not collect rent, you do not pay commission. Our incentives are
+                  aligned with yours: we succeed when your property performs.
+                </p>
+              </div>
+              <div className="pt-6 border-t border-graphite/40">
+                <p className="text-ivory font-display text-lg">
+                  Commission is agreed during onboarding and fixed for the duration of
+                  the management agreement. No renegotiation. No escalation clauses.
+                </p>
+              </div>
+            </div>
+          </FadeIn>
+
+          {/* Right — what you get */}
+          <FadeIn delay={0.2}>
+            <div className="border border-graphite/40 p-6 sm:p-8 lg:p-10">
+              <MonoLabel className="text-njoh-gold/60">INCLUDED IN YOUR COMMISSION</MonoLabel>
+              <div className="mt-6 space-y-5">
+                {[
+                  "On-time rent collection and transfer to your account",
+                  "Tenant vetting, placement, and lease execution",
+                  "Enforcement of lease terms and house rules",
+                  "Regular property inspections and maintenance coordination",
+                  "Monthly financial reports and annual summaries",
+                  "Tenant dispute resolution and escalation management",
+                  "Vacancy marketing and rapid re-letting",
+                  "Bilingual operations — English and French",
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-4">
+                    <GoldRule width="12px" className="mt-2.5 shrink-0" />
+                    <p className="text-ivory text-sm leading-relaxed">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </FadeIn>
         </div>
       </div>
     </section>
