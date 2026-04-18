@@ -70,7 +70,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <FadeIn>
-            <MonoLabel className="text-stone">REACH THE RIGHT TEAM</MonoLabel>
+            <MonoLabel className="text-obsidian/50">REACH THE RIGHT TEAM</MonoLabel>
             <GoldRule width="40px" className="my-4" />
           </FadeIn>
 
@@ -78,11 +78,11 @@ export default async function ContactPage({ params }: ContactPageProps) {
             {ROUTING_CARDS.map((card, i) => (
               <FadeIn key={card.label} delay={i * 0.05}>
                 <div className="border border-stone/20 p-8 hover:border-njoh-gold/40 transition-colors h-full">
-                  <MonoLabel className="text-stone/60">{card.label}</MonoLabel>
+                  <MonoLabel className="text-obsidian/50">{card.label}</MonoLabel>
                   <h3 className="mt-3 font-display text-lg text-obsidian">
                     {card.title}
                   </h3>
-                  <p className="mt-2 text-sm text-stone leading-relaxed">
+                  <p className="mt-2 text-sm text-obsidian/60 leading-relaxed">
                     {card.description}
                   </p>
                   <div className="mt-4 flex flex-wrap gap-3">
@@ -95,7 +95,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
                     {"href" in card && card.href && (
                       <a
                         href={`${prefix}${card.href}`}
-                        className="text-sm text-stone hover:text-obsidian transition-colors font-body"
+                        className="text-sm text-obsidian/60 hover:text-obsidian transition-colors font-body"
                       >
                         Visit page &rarr;
                       </a>
@@ -130,7 +130,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
                     {office.city}
                   </h3>
                   <p className="mt-1 text-sm text-ash">{office.country}</p>
-                  <p className="mt-4 text-sm text-stone leading-relaxed">
+                  <p className="mt-4 text-sm text-ash leading-relaxed">
                     {office.description}
                   </p>
                 </div>
@@ -144,7 +144,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6">
           <FadeIn>
-            <MonoLabel className="text-stone">SEND A MESSAGE</MonoLabel>
+            <MonoLabel className="text-obsidian/50">SEND A MESSAGE</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               Write to us directly.
             </h2>
@@ -155,7 +155,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
             <form className="mt-8 space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-xs text-stone uppercase tracking-widest font-body mb-2">
+                  <label className="block text-xs text-obsidian/60 uppercase tracking-widest font-body mb-2">
                     Name *
                   </label>
                   <input
@@ -165,7 +165,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
                   />
                 </div>
                 <div>
-                  <label className="block text-xs text-stone uppercase tracking-widest font-body mb-2">
+                  <label className="block text-xs text-obsidian/60 uppercase tracking-widest font-body mb-2">
                     Email *
                   </label>
                   <input
@@ -176,7 +176,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
                 </div>
               </div>
               <div>
-                <label className="block text-xs text-stone uppercase tracking-widest font-body mb-2">
+                <label className="block text-xs text-obsidian/60 uppercase tracking-widest font-body mb-2">
                   Company / Organisation
                 </label>
                 <input
@@ -186,7 +186,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
                 />
               </div>
               <div>
-                <label className="block text-xs text-stone uppercase tracking-widest font-body mb-2">
+                <label className="block text-xs text-obsidian/60 uppercase tracking-widest font-body mb-2">
                   Message *
                 </label>
                 <textarea
@@ -199,7 +199,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
                 <Button variant="primary" size="lg">
                   Send message
                 </Button>
-                <p className="mt-3 text-xs text-stone">
+                <p className="mt-3 text-xs text-obsidian/50">
                   Form integration coming soon. In the meantime, email{" "}
                   <a
                     href={`mailto:${EMAILS.general}`}

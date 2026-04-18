@@ -26,7 +26,7 @@ export function ThesisQuote({ dict, prefix }: ThesisQuoteProps) {
           />
         </blockquote>
         <FadeIn delay={1.5}>
-          <p className="mt-6 text-stone italic text-sm">
+          <p className="mt-6 text-obsidian/60 italic text-sm">
             {hp(dict, "thesisAttribution")}
           </p>
         </FadeIn>

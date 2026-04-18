@@ -45,7 +45,7 @@ export default async function VisionPage({ params }: VisionPageProps) {
         <div className="mx-auto max-w-[700px] px-6 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
           {/* Opening */}
           <FadeIn>
-            <p className="text-stone text-lg leading-relaxed">
+            <p className="text-obsidian/70 text-lg leading-relaxed">
               When I talk about Africa, I am not talking about a place that needs rescuing. I am
               talking about a place that is preparing to define the next fifty years of the global
               economy — and about the institutions that have not yet been built to meet it.
@@ -228,7 +228,7 @@ export default async function VisionPage({ params }: VisionPageProps) {
                 ].map((item, i) => (
                   <li key={i} className="flex gap-4">
                     <span className="text-njoh-gold mt-1 shrink-0">&mdash;</span>
-                    <span className="italic text-stone">{item}</span>
+                    <span className="italic text-obsidian/70">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -254,7 +254,7 @@ export default async function VisionPage({ params }: VisionPageProps) {
               choice of what to invest in and what to refuse. The choice of which version of Africa
               to build for.
             </p>
-            <p className="mt-6 text-[var(--text-body-lg)] text-stone leading-relaxed">
+            <p className="mt-6 text-[var(--text-body-lg)] text-ash leading-relaxed">
               If the thesis on this page resonates with you — whether you are a government, an
               investor, a journalist, a builder, or someone looking for a place to do the most
               important work of your career — we would like to hear from you.

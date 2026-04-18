@@ -133,11 +133,11 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
                 <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
                   Njoh Property Management.
                 </h2>
-                <p className="mt-4 font-display italic text-lg text-stone leading-relaxed">
+                <p className="mt-4 font-display italic text-lg text-obsidian/60 leading-relaxed">
                   Professional property management for Cameroon and beyond.
                 </p>
                 <GoldRule width="40px" className="mt-6" />
-                <p className="mt-6 text-stone leading-relaxed">
+                <p className="mt-6 text-obsidian/70 leading-relaxed">
                   NPM is Njoh Group&apos;s first operating company \u2014 live since
                   2021, managing residential and commercial properties in Cameroon.
                   It is the foundation of everything we are building in real estate.
@@ -158,7 +158,7 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
                       <h3 className="mt-3 font-display text-lg text-obsidian leading-snug">
                         {service.title}
                       </h3>
-                      <p className="mt-3 text-stone text-sm leading-relaxed">
+                      <p className="mt-3 text-obsidian/60 text-sm leading-relaxed">
                         {service.description}
                       </p>
                     </div>

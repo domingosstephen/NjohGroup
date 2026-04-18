@@ -44,7 +44,7 @@ export default async function FounderProfilePage({
         <div className="mx-auto max-w-[700px] px-6 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
           {/* Origin */}
           <FadeIn>
-            <MonoLabel className="text-stone">ORIGIN</MonoLabel>
+            <MonoLabel className="text-obsidian/50">ORIGIN</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               From Cameroon to the world.
             </h2>
@@ -55,7 +55,7 @@ export default async function FounderProfilePage({
               the tension between Africa&apos;s extraordinary human capital and
               the institutional gaps that prevented it from compounding.
             </p>
-            <p className="mt-6 text-stone italic">
+            <p className="mt-6 text-obsidian/60 italic">
               [FOUNDER TO REVIEW — Additional biographical details about early
               life, education, and formative experiences to be added here.]
             </p>
@@ -77,7 +77,7 @@ export default async function FounderProfilePage({
                 a base in a country that understands the dynamics of building at
                 continental scale.
               </p>
-              <p className="mt-6 text-stone italic">
+              <p className="mt-6 text-obsidian/60 italic">
                 [FOUNDER TO REVIEW — Personal narrative about the decision to
                 base operations in Brazil, and how it connects to the Group&apos;s
                 thesis.]
@@ -102,7 +102,7 @@ export default async function FounderProfilePage({
                   what we are building.&rdquo;
                 </p>
               </blockquote>
-              <p className="mt-6 text-stone italic">
+              <p className="mt-6 text-obsidian/60 italic">
                 [FOUNDER TO REVIEW — Extended thesis statement and personal
                 motivation to be expanded here.]
               </p>
@@ -116,7 +116,7 @@ export default async function FounderProfilePage({
               <h2 className="font-display text-[var(--text-h2)] text-obsidian leading-snug">
                 Prior work.
               </h2>
-              <p className="mt-6 text-stone italic">
+              <p className="mt-6 text-obsidian/60 italic">
                 [FOUNDER TO REVIEW — Professional background, prior ventures,
                 key experiences that informed the creation of Njoh Group. To be
                 written in collaboration with the founder.]
@@ -127,7 +127,7 @@ export default async function FounderProfilePage({
           {/* Contact */}
           <FadeIn>
             <div className="mt-20 border-t border-stone/20 pt-12">
-              <MonoLabel className="text-stone">CONNECT</MonoLabel>
+              <MonoLabel className="text-obsidian/50">CONNECT</MonoLabel>
               <div className="mt-6 flex flex-wrap gap-4">
                 <Button
                   variant="secondary"

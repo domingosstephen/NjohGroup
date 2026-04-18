@@ -32,7 +32,7 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
       <article className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
           <FadeIn>
-            <MonoLabel className="text-stone">
+            <MonoLabel className="text-obsidian/50">
               LAST UPDATED: APRIL 2026
             </MonoLabel>
             <GoldRule width="40px" className="my-6" />
@@ -51,7 +51,7 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               2. Information We Collect
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — Full privacy policy text to be drafted by legal
               counsel. This section will detail the types of personal data
               collected, including contact information, browsing data, and any
@@ -61,7 +61,7 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               3. How We Use Your Information
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — This section will describe the purposes for which
               personal data is processed, including responding to inquiries,
               improving our services, and complying with legal obligations.]
@@ -70,7 +70,7 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               4. Data Sharing and Transfers
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — This section will outline circumstances under which
               data may be shared with third parties or transferred across
               borders, and the safeguards in place.]
@@ -79,7 +79,7 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               5. Your Rights
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — This section will detail your rights regarding your
               personal data, including access, rectification, erasure, and
               portability.]

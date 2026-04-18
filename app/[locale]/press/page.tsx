@@ -48,23 +48,23 @@ export default async function PressPage({ params }: PressPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <FadeIn>
-            <MonoLabel className="text-stone">PRESS RELEASES</MonoLabel>
+            <MonoLabel className="text-obsidian/50">PRESS RELEASES</MonoLabel>
             <GoldRule width="40px" className="my-4" />
           </FadeIn>
 
           <FadeIn delay={0.1}>
             <div className="mt-8 border border-stone/20 p-8">
-              <MonoLabel className="text-stone/60">APRIL 2026</MonoLabel>
+              <MonoLabel className="text-obsidian/50">APRIL 2026</MonoLabel>
               <h3 className="mt-3 font-display text-xl text-obsidian">
                 Njoh Group PLC Announces Digital Launch
               </h3>
-              <p className="mt-3 text-stone leading-relaxed">
+              <p className="mt-3 text-obsidian/70 leading-relaxed">
                 Njoh Group PLC launches its digital presence, marking a new
                 chapter in the Group&apos;s mission to build pan-African
                 institutions across real estate, outsourcing, agriculture, and
                 logistics.
               </p>
-              <p className="mt-4 text-sm text-stone/60 italic">
+              <p className="mt-4 text-sm text-obsidian/50 italic">
                 Full press release coming soon.
               </p>
             </div>
@@ -100,7 +100,7 @@ export default async function PressPage({ params }: PressPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <FadeIn>
-            <MonoLabel className="text-stone">MEDIA KIT</MonoLabel>
+            <MonoLabel className="text-obsidian/50">MEDIA KIT</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               Downloadable assets.
             </h2>
@@ -115,11 +115,11 @@ export default async function PressPage({ params }: PressPageProps) {
                     <h3 className="font-display text-base text-obsidian">
                       {asset.name}
                     </h3>
-                    <p className="mt-1 text-sm text-stone">
+                    <p className="mt-1 text-sm text-obsidian/60">
                       {asset.description}
                     </p>
                   </div>
-                  <span className="text-stone/40 text-sm font-body uppercase tracking-widest shrink-0 ml-4">
+                  <span className="text-obsidian/40 text-sm font-body uppercase tracking-widest shrink-0 ml-4">
                     Coming soon
                   </span>
                 </div>
@@ -149,7 +149,7 @@ export default async function PressPage({ params }: PressPageProps) {
                 {EMAILS.press}
               </a>
             </div>
-            <p className="mt-4 text-sm text-stone">
+            <p className="mt-4 text-sm text-ash">
               We aim to respond to all press inquiries within 24 hours.
             </p>
           </FadeIn>

@@ -52,7 +52,7 @@ export default async function LeadershipPage({ params }: LeadershipPageProps) {
 
               {/* Bio summary */}
               <div>
-                <MonoLabel className="text-stone">FOUNDER & CEO</MonoLabel>
+                <MonoLabel className="text-obsidian/50">FOUNDER & CEO</MonoLabel>
                 <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
                   Njih Njoh Keka
                 </h2>
@@ -66,7 +66,7 @@ export default async function LeadershipPage({ params }: LeadershipPageProps) {
                   </p>
                 </blockquote>
 
-                <p className="text-stone leading-relaxed">
+                <p className="text-obsidian/70 leading-relaxed">
                   Njih Njoh Keka is the founder and CEO of Njoh Group PLC, a
                   pan-African holding company building across real estate,
                   outsourcing, agriculture, and logistics. Born in Cameroon and
@@ -105,7 +105,7 @@ export default async function LeadershipPage({ params }: LeadershipPageProps) {
               S&atilde;o Paulo, and Madrid — building the foundations of each sector
               and preparing for the next phase of growth.
             </p>
-            <p className="mt-6 text-stone leading-relaxed max-w-2xl">
+            <p className="mt-6 text-ash leading-relaxed max-w-2xl">
               As we expand, this page will feature the leaders and operators who
               make the Group&apos;s mission possible.
             </p>
@@ -120,7 +120,7 @@ export default async function LeadershipPage({ params }: LeadershipPageProps) {
             <h2 className="font-display text-[var(--text-h2)] text-obsidian leading-snug">
               Want to join this team?
             </h2>
-            <p className="mt-4 text-stone leading-relaxed">
+            <p className="mt-4 text-obsidian/70 leading-relaxed">
               We are looking for people who want to build institutions, not just
               companies. If you believe in patient, ambitious work — we want to
               hear from you.

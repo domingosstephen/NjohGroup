@@ -32,7 +32,7 @@ export default async function CookiesPage({ params }: CookiesPageProps) {
       <article className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
           <FadeIn>
-            <MonoLabel className="text-stone">
+            <MonoLabel className="text-obsidian/50">
               LAST UPDATED: APRIL 2026
             </MonoLabel>
             <GoldRule width="40px" className="my-6" />
@@ -49,7 +49,7 @@ export default async function CookiesPage({ params }: CookiesPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               2. How We Use Cookies
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — Full cookie policy to be drafted by legal counsel.
               This section will detail the types of cookies used (essential,
               analytics, functional) and their purposes.]
@@ -58,7 +58,7 @@ export default async function CookiesPage({ params }: CookiesPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               3. Third-Party Cookies
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — This section will describe any third-party cookies
               used on the website, including analytics providers and their
               purposes.]
@@ -67,7 +67,7 @@ export default async function CookiesPage({ params }: CookiesPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               4. Managing Cookies
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — This section will explain how users can manage,
               disable, or delete cookies through their browser settings.]
             </p>

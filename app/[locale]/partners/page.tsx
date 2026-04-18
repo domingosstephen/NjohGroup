@@ -80,7 +80,7 @@ export default async function PartnersPage({ params }: PartnersPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
           <FadeIn>
-            <MonoLabel className="text-stone">WHO WE PARTNER WITH</MonoLabel>
+            <MonoLabel className="text-obsidian/50">WHO WE PARTNER WITH</MonoLabel>
             <GoldRule width="40px" className="my-4" />
             <p className="mt-6">
               Njoh Group PLC is a holding company building across four sectors:
@@ -94,7 +94,7 @@ export default async function PartnersPage({ params }: PartnersPageProps) {
               institutions. If your organisation shares our timeline and our
               values, we would like to hear from you.
             </p>
-            <p className="mt-6 text-stone">
+            <p className="mt-6 text-obsidian/60">
               All inquiries are reviewed by the founder&apos;s office. We aim to
               respond within five business days.
             </p>
@@ -241,7 +241,7 @@ export default async function PartnersPage({ params }: PartnersPageProps) {
               </div>
 
               <div>
-                <p className="text-xs text-stone mb-4">
+                <p className="text-xs text-ash mb-4">
                   File uploads (pitch decks, term sheets, etc.) will be
                   supported in a future update. For now, please email
                   attachments directly to{" "}
@@ -258,7 +258,7 @@ export default async function PartnersPage({ params }: PartnersPageProps) {
                 <Button variant="primary" size="lg">
                   Submit inquiry
                 </Button>
-                <p className="mt-3 text-xs text-stone">
+                <p className="mt-3 text-xs text-ash">
                   Form integration coming soon. In the meantime, email{" "}
                   <a
                     href={`mailto:${EMAILS.partners}`}
@@ -277,9 +277,9 @@ export default async function PartnersPage({ params }: PartnersPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-center">
           <FadeIn>
-            <MonoLabel className="text-stone">WHAT HAPPENS NEXT</MonoLabel>
+            <MonoLabel className="text-obsidian/50">WHAT HAPPENS NEXT</MonoLabel>
             <GoldRule width="40px" className="mx-auto my-6" />
-            <p className="text-stone leading-relaxed">
+            <p className="text-obsidian/70 leading-relaxed">
               All partnership inquiries are reviewed by the founder&apos;s
               office. We evaluate alignment with our mission, sector fit,
               timeline compatibility, and institutional credibility. Qualified

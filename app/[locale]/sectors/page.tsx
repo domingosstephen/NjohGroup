@@ -151,7 +151,7 @@ export default async function SectorsPage({ params }: SectorsPageProps) {
         const isEven = i % 2 === 0;
         const bg = isEven ? "bg-ivory" : "bg-obsidian";
         const textColor = isEven ? "text-obsidian" : "text-ivory";
-        const bodyColor = isEven ? "text-stone" : "text-ash";
+        const bodyColor = isEven ? "text-obsidian/70" : "text-ash";
         const flexDir = isEven ? "lg:flex-row" : "lg:flex-row-reverse";
 
         return (
@@ -193,7 +193,7 @@ export default async function SectorsPage({ params }: SectorsPageProps) {
 
                 <FadeIn delay={0.2}>
                   <div className="mt-8">
-                    <MonoLabel className={isEven ? "text-stone/60" : "text-ash/60"}>
+                    <MonoLabel className={isEven ? "text-obsidian/50" : "text-ash/60"}>
                       {sector.status}
                     </MonoLabel>
                   </div>
@@ -243,7 +243,7 @@ export default async function SectorsPage({ params }: SectorsPageProps) {
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               Emerging focus areas.
             </h2>
-            <p className="mt-6 text-stone text-[var(--text-body-lg)] leading-relaxed max-w-2xl mx-auto">
+            <p className="mt-6 text-obsidian/70 text-[var(--text-body-lg)] leading-relaxed max-w-2xl mx-auto">
               Beyond our four core sectors, we are tracking opportunities in media,
               technology, and healthcare \u2014 areas where Africa&apos;s structural
               gaps create long-term opportunity for patient, AI-native operators.

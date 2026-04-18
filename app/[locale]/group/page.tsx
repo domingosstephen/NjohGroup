@@ -74,7 +74,7 @@ export default async function GroupPage({ params }: GroupPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
           <FadeIn>
-            <MonoLabel className="text-stone">OUR STORY</MonoLabel>
+            <MonoLabel className="text-obsidian/50">OUR STORY</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               Why Njoh Group exists.
             </h2>
@@ -136,7 +136,7 @@ export default async function GroupPage({ params }: GroupPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
           <FadeIn>
-            <MonoLabel className="text-stone">GOVERNANCE</MonoLabel>
+            <MonoLabel className="text-obsidian/50">GOVERNANCE</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               Built for accountability.
             </h2>
@@ -162,7 +162,7 @@ export default async function GroupPage({ params }: GroupPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)] border-t border-stone/10">
         <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <FadeIn>
-            <MonoLabel className="text-stone">VALUES & PRINCIPLES</MonoLabel>
+            <MonoLabel className="text-obsidian/50">VALUES & PRINCIPLES</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug max-w-2xl">
               What we believe.
             </h2>
@@ -176,7 +176,7 @@ export default async function GroupPage({ params }: GroupPageProps) {
                   <h3 className="font-display text-lg text-obsidian">
                     {value.title}
                   </h3>
-                  <p className="mt-3 text-stone text-sm leading-relaxed">
+                  <p className="mt-3 text-obsidian/60 text-sm leading-relaxed">
                     {value.description}
                   </p>
                 </div>

@@ -72,7 +72,7 @@ export default async function EmergingPage({ params }: EmergingPageProps) {
         const isEven = i % 2 === 0;
         const bg = isEven ? "bg-ivory" : "bg-obsidian";
         const headingColor = isEven ? "text-obsidian" : "text-ivory";
-        const bodyColor = isEven ? "text-stone" : "text-ash";
+        const bodyColor = isEven ? "text-obsidian/70" : "text-ash";
 
         return (
           <section key={area.number} className={`${bg} py-[var(--section-padding-y)]`}>

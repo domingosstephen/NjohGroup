@@ -71,17 +71,17 @@ export default async function InsightsPage({ params }: InsightsPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-center">
           <FadeIn>
-            <MonoLabel className="text-stone">COMING SOON</MonoLabel>
+            <MonoLabel className="text-obsidian/50">COMING SOON</MonoLabel>
             <h2 className="mt-6 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               Our inaugural essays are being written.
             </h2>
             <GoldRule width="40px" className="mx-auto my-8" />
-            <p className="text-stone leading-relaxed">
+            <p className="text-obsidian/70 leading-relaxed">
               Njoh Group believes in thinking in public. Our first essays will
               cover the Africa thesis, the case for AI-native institutions, and
               the structural opportunities in each of our four sectors.
             </p>
-            <p className="mt-6 text-stone leading-relaxed">
+            <p className="mt-6 text-obsidian/70 leading-relaxed">
               We are taking the time to get them right. Subscribe below to be
               notified when they launch.
             </p>
@@ -93,7 +93,7 @@ export default async function InsightsPage({ params }: InsightsPageProps) {
               <h3 className="font-display text-lg text-obsidian">
                 Get notified when we publish.
               </h3>
-              <p className="mt-2 text-sm text-stone">
+              <p className="mt-2 text-sm text-obsidian/60">
                 No spam. Only essays worth reading.
               </p>
               <div className="mt-6 flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
@@ -107,7 +107,7 @@ export default async function InsightsPage({ params }: InsightsPageProps) {
                   Subscribe
                 </Button>
               </div>
-              <p className="mt-3 text-xs text-stone/60">
+              <p className="mt-3 text-xs text-obsidian/40">
                 Newsletter integration coming soon.
               </p>
             </div>
@@ -116,7 +116,7 @@ export default async function InsightsPage({ params }: InsightsPageProps) {
           {/* In the meantime */}
           <FadeIn delay={0.3}>
             <div className="mt-16">
-              <p className="text-stone text-sm">
+              <p className="text-obsidian/60 text-sm">
                 In the meantime, read our founding thesis:
               </p>
               <div className="mt-4">

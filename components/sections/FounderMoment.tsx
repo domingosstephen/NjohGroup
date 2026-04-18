@@ -56,7 +56,7 @@ export function FounderMoment({ dict, prefix }: FounderMomentProps) {
           {/* Right — Content */}
           <FadeIn direction="right" delay={0.2}>
             <div>
-              <MonoLabel className="text-stone">{hp(dict, "founderLabel")}</MonoLabel>
+              <MonoLabel className="text-obsidian/50">{hp(dict, "founderLabel")}</MonoLabel>
 
               <div className="mt-6">
                 <PullQuote size="md" className="[&_p]:text-obsidian [&_*]:text-obsidian">
@@ -64,7 +64,7 @@ export function FounderMoment({ dict, prefix }: FounderMomentProps) {
                 </PullQuote>
               </div>
 
-              <p className="mt-8 text-base text-stone leading-relaxed">
+              <p className="mt-8 text-base text-obsidian/70 leading-relaxed">
                 {hp(dict, "founderBio")}
               </p>
 

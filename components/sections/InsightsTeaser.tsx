@@ -44,7 +44,7 @@ export function InsightsTeaser({ dict, prefix }: InsightsTeaserProps) {
           <h2 className="font-display text-[var(--text-h1)] text-obsidian leading-tight">
             {hp(dict, "insightsHeading")}
           </h2>
-          <p className="mt-4 max-w-2xl text-stone text-[var(--text-body-lg)] leading-relaxed">
+          <p className="mt-4 max-w-2xl text-obsidian/70 text-[var(--text-body-lg)] leading-relaxed">
             {hp(dict, "insightsSubhead")}
           </p>
         </FadeIn>
@@ -53,11 +53,11 @@ export function InsightsTeaser({ dict, prefix }: InsightsTeaserProps) {
           {placeholderArticles.map((article, i) => (
             <StaggerItem key={i}>
               <div className="group relative border border-stone/20 p-6 lg:p-8 h-full transition-all duration-300 hover:border-njoh-gold/30 bg-ivory">
-                <MonoLabel className="text-stone/60">{article.category}</MonoLabel>
+                <MonoLabel className="text-obsidian/50">{article.category}</MonoLabel>
                 <h3 className="mt-4 font-display text-xl text-obsidian leading-snug">
                   {article.title}
                 </h3>
-                <p className="mt-4 font-mono text-[0.6875rem] text-stone/40 uppercase tracking-wider">
+                <p className="mt-4 font-mono text-[0.6875rem] text-obsidian/40 uppercase tracking-wider">
                   {article.date}
                 </p>
                 {/* Gold underline animation on hover */}

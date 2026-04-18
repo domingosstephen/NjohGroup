@@ -69,7 +69,7 @@ export default async function CareersPage({ params }: CareersPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
           <FadeIn>
-            <MonoLabel className="text-stone">WHY WORK HERE</MonoLabel>
+            <MonoLabel className="text-obsidian/50">WHY WORK HERE</MonoLabel>
             <GoldRule width="40px" className="my-4" />
           </FadeIn>
 
@@ -79,7 +79,7 @@ export default async function CareersPage({ params }: CareersPageProps) {
                 <h3 className="font-display text-xl text-obsidian">
                   {item.title}
                 </h3>
-                <p className="mt-4 text-stone leading-relaxed">
+                <p className="mt-4 text-obsidian/70 leading-relaxed">
                   {item.description}
                 </p>
               </div>
@@ -187,7 +187,7 @@ export default async function CareersPage({ params }: CareersPageProps) {
                 <Button variant="primary" size="md">
                   Submit
                 </Button>
-                <p className="mt-3 text-xs text-stone">
+                <p className="mt-3 text-xs text-obsidian/50">
                   Form integration coming soon. In the meantime, email{" "}
                   <a
                     href={`mailto:${EMAILS.careers}`}
@@ -206,11 +206,11 @@ export default async function CareersPage({ params }: CareersPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-center">
           <FadeIn>
-            <MonoLabel className="text-stone">
+            <MonoLabel className="text-obsidian/50">
               EQUAL OPPORTUNITY EMPLOYER
             </MonoLabel>
             <GoldRule width="40px" className="mx-auto my-6" />
-            <p className="text-stone leading-relaxed">
+            <p className="text-obsidian/70 leading-relaxed">
               Njoh Group PLC is an equal opportunity employer. We evaluate
               candidates based on merit, capability, and alignment with our
               mission — regardless of race, gender, sexual orientation, religion,

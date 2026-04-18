@@ -32,7 +32,7 @@ export default async function TermsPage({ params }: TermsPageProps) {
       <article className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
           <FadeIn>
-            <MonoLabel className="text-stone">
+            <MonoLabel className="text-obsidian/50">
               LAST UPDATED: APRIL 2026
             </MonoLabel>
             <GoldRule width="40px" className="my-6" />
@@ -50,7 +50,7 @@ export default async function TermsPage({ params }: TermsPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               2. Use of the Website
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — Full terms of use to be drafted by legal counsel.
               This section will describe acceptable use, restrictions, and user
               responsibilities.]
@@ -59,7 +59,7 @@ export default async function TermsPage({ params }: TermsPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               3. Intellectual Property
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — This section will detail ownership of content,
               trademarks, and other intellectual property on the website.]
             </p>
@@ -67,7 +67,7 @@ export default async function TermsPage({ params }: TermsPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               4. Disclaimers
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — This section will outline disclaimers regarding the
               accuracy of information, forward-looking statements, and
               limitations of liability.]
@@ -76,7 +76,7 @@ export default async function TermsPage({ params }: TermsPageProps) {
             <h2 className="mt-12 font-display text-[var(--text-h2)] text-obsidian leading-snug">
               5. Governing Law
             </h2>
-            <p className="mt-4 text-stone italic">
+            <p className="mt-4 text-obsidian/60 italic">
               [Placeholder — This section will specify the governing law and
               jurisdiction for any disputes arising from use of the website.]
             </p>
