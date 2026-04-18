@@ -19,11 +19,11 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps) {
   const { locale } = await params;
   return generatePageMetadata({
-    title: "Njoh Property Management — Professional Property Management in Cameroon",
+    title: "Rental Property Management in Cameroon — Njoh Property Management",
     description:
-      "Institutional-grade property management for Cameroon. AI-powered tenant relations, predictive maintenance, transparent reporting. For landlords, developers, and portfolio owners.",
+      "Register your rental property with Njoh Property Management. We collect rent on time, enforce tenant compliance, coordinate maintenance, and deliver monthly financial reporting — for a fixed commission. Yaoundé, Cameroon.",
     locale: locale as Locale,
-    path: "/npm",
+    path: "/property-management",
   });
 }
 

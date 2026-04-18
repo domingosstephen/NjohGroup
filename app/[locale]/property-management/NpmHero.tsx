@@ -46,7 +46,7 @@ export function NpmHero() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <MonoLabel className="text-njoh-gold">
-                NJOH PROPERTY MANAGEMENT
+                RENTAL PROPERTY MANAGEMENT · CAMEROON
               </MonoLabel>
             </motion.div>
 
