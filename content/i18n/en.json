@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "vision": "Vision",
+    "sectors": "Sectors",
+    "leadership": "Leadership",
+    "group": "Group",
+    "insights": "Insights",
+    "careers": "Careers",
+    "contact": "Contact",
+    "partnerCta": "Partner with us"
+  },
+  "homepage": {
+    "heroHeadline1": "The Africa of tomorrow",
+    "heroHeadline2": "is already being built.",
+    "heroHeadlineGoldWord": "already",
+    "heroSubhead": "A pan-African holding investing in the sectors that matter most — real estate, outsourcing, agriculture and logistics — with AI woven through every operation.",
+    "heroCta1": "Read our thesis",
+    "heroCta2": "Explore our sectors",
+    "heroMeta": "NJOH GROUP PLC · EST. 2021 · YAOUNDÉ · SÃO PAULO · MADRID",
+    "thesisQuote": "Africa is not an emerging market. It is the market that will define the next fifty years — and it will need new kinds of institutions to build it.",
+    "thesisAttribution": "— From the founder's note",
+    "thesisLink": "Read the full thesis",
+    "sectorsHeading": "Where we build.",
+    "sectorsSubhead": "Four sectors. One thesis: the infrastructure Africa needs, built for the era Africa is entering.",
+    "sectorsEmerging": "Emerging focus areas: media, technology, healthcare.",
+    "founderLabel": "FOUNDER & CHIEF EXECUTIVE",
+    "founderQuote": "I am building from Brazil what I want to see in Africa. The distance gives me the perspective; the mission gives me the urgency.",
+    "founderBio": "Njih Njoh Keka founded Njoh Group in 2021, operating between Cameroon, Brazil and Spain. His work sits at the intersection of diaspora capital, industrial strategy, and AI.",
+    "founderLink": "Read more about the founder",
+    "footprintHeading": "Rooted in Africa. Connected to the world.",
+    "insightsHeading": "Thinking in public.",
+    "insightsSubhead": "Essays, theses, and perspectives from the Njoh Group team on the future of African industry.",
+    "insightsLink": "All insights",
+    "insightsComingSoon": "Our inaugural essays are being written.",
+    "engageHeading": "Build with us.",
+    "engageSubhead": "For partnerships, institutional inquiries, press, or careers — choose your path.",
+    "engagePartners": "Institutional partnerships",
+    "engagePress": "Press & media",
+    "engageCareers": "Careers",
+    "engageContact": "General inquiries",
+    "engageEmail": "Or write to us directly:"
+  },
+  "sectors": {
+    "enterSector": "Enter the sector",
+    "backToSectors": "Back to all sectors",
+    "status": "STATUS"
+  },
+  "common": {
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "scrollToExplore": "SCROLL TO EXPLORE",
+    "comingSoon": "Coming soon",
+    "lastUpdated": "LAST UPDATED",
+    "minuteRead": "minute read",
+    "downloadPdf": "Download as PDF",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Your email address",
+    "thankYou": "Thank you — we've received your message and will respond within 48 hours.",
+    "required": "Required",
+    "submit": "Submit",
+    "name": "Name",
+    "email": "Email",
+    "company": "Company",
+    "message": "Message"
+  },
+  "footer": {
+    "tagline": "Building the institutions Africa will need.",
+    "copyright": "© 2026 Njoh Group PLC. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies"
+  }
+}

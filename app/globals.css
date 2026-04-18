@@ -1,26 +1,194 @@
 @import "tailwindcss";
 
+/* ============================================
+   NJOH GROUP PLC — Design Tokens
+   ============================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Colors — Primary */
+  --color-obsidian: #0A0A0B;
+  --color-njoh-gold: #D4A24C;
+  --color-gold-light: #E8C07A;
+
+  /* Colors — Neutrals */
+  --color-ivory: #F5F1EA;
+  --color-stone: #C9C2B5;
+  --color-graphite: #1C1C1E;
+  --color-ash: #8A8580;
+
+  /* Colors — Accent (rare) */
+  --color-terracotta: #B85C38;
+
+  /* Typography Scale */
+  --text-hero: clamp(3.5rem, 8vw, 7rem);
+  --text-display: clamp(2.5rem, 5vw, 4rem);
+  --text-h1: clamp(2rem, 3.5vw, 3rem);
+  --text-h2: clamp(1.5rem, 2.5vw, 2rem);
+  --text-h3: 1.25rem;
+  --text-body-lg: 1.1875rem;
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-mono: 0.6875rem;
+
+  /* Line Heights */
+  --leading-tight: 1.1;
+  --leading-snug: 1.3;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;
+
+  /* Spacing */
+  --section-padding-y: clamp(80px, 10vw, 160px);
+  --container-max: 1440px;
+  --reading-max: 700px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 200ms;
+  --duration-base: 400ms;
+  --duration-slow: 800ms;
+  --duration-arc: 1500ms;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-obsidian: #0A0A0B;
+  --color-njoh-gold: #D4A24C;
+  --color-gold-light: #E8C07A;
+  --color-ivory: #F5F1EA;
+  --color-stone: #C9C2B5;
+  --color-graphite: #1C1C1E;
+  --color-ash: #8A8580;
+  --color-terracotta: #B85C38;
+
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ============================================
+   Base Styles
+   ============================================ */
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-obsidian);
+  color: var(--color-ivory);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-njoh-gold);
+  color: var(--color-obsidian);
+}
+
+/* ============================================
+   Focus States
+   ============================================ */
+
+*:focus-visible {
+  outline: 2px solid var(--color-njoh-gold);
+  outline-offset: 4px;
+}
+
+/* ============================================
+   Scrollbar Styling
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-obsidian);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-graphite);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ash);
+}
+
+/* ============================================
+   Premium Animation Keyframes
+   ============================================ */
+
+@keyframes spotlight {
+  0% {
+    opacity: 0;
+    transform: translate(-72%, -62%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -40%) scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.animate-spotlight {
+  animation: spotlight 2s ease 0.75s 1 forwards;
+}
+
+.animate-shimmer {
+  animation: shimmer 3s linear infinite;
+}
+
+/* ============================================
+   Reduced Motion
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 100ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ============================================
+   Print / PDF Styles (Vision page)
+   ============================================ */
+
+@media print {
+  body {
+    background: white;
+    color: black;
+    font-size: 11pt;
+    line-height: 1.6;
+  }
+
+  nav, footer, .no-print {
+    display: none !important;
+  }
+
+  .print-break-before {
+    page-break-before: always;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
 }
