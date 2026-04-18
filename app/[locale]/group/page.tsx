@@ -35,14 +35,14 @@ const VALUES = [
       "We are not building a portfolio of startups. We are building durable, cross-sector institutions that compound over time.",
   },
   {
-    title: "AI as infrastructure, not marketing",
+    title: "Technology as infrastructure",
     description:
-      "Artificial intelligence is woven into how we operate — not bolted onto how we present ourselves.",
+      "Computational tools — including machine learning and automation — are embedded in the Group's operations as standard working method, not as a separate initiative.",
   },
   {
-    title: "Transparency as a competitive advantage",
+    title: "Transparency as governance",
     description:
-      "We share our thinking, our progress, and our challenges openly. Trust is earned by being legible.",
+      "The Group publishes its thinking, its progress, and its challenges as a matter of institutional discipline. Trust is maintained through legibility.",
   },
   {
     title: "Pan-African by design",
@@ -88,8 +88,9 @@ export default async function GroupPage({ params }: GroupPageProps) {
               The Group is structured as a holding company — not a fund, not an
               accelerator, not an NGO. We build, own, and operate companies
               across four sectors that form a system: real estate, outsourcing,
-              agriculture, and logistics. AI is woven through every operation as
-              infrastructure, not as a product.
+              agriculture, and logistics. Computational tools, including
+              machine learning, are embedded across every operation as
+              working infrastructure.
             </p>
             <p className="mt-6">
               We are a young company. We have approximately 20 people, one
@@ -138,21 +139,22 @@ export default async function GroupPage({ params }: GroupPageProps) {
           <FadeIn>
             <MonoLabel className="text-obsidian/50">GOVERNANCE</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
-              Built for accountability.
+              Governance framework.
             </h2>
             <p className="mt-6">
-              Njoh Group PLC is structured as a holding company with clear
-              governance principles designed for long-term institutional
-              integrity. Each subsidiary operates with defined mandates,
-              transparent reporting, and accountability to the Group&apos;s
-              mission.
+              Njoh Group PLC is constituted as a holding company with
+              governance provisions designed for long-term institutional
+              accountability. Each subsidiary operates under a defined
+              mandate, with standardised reporting obligations to the
+              Group&apos;s executive office.
             </p>
             <p className="mt-6">
-              As the Group grows, governance structures will evolve to include an
-              independent board, advisory councils, and formal ESG reporting.
-              These are not aspirational — they are architectural. We are
-              building the scaffolding now so the institution can scale with
-              integrity.
+              The governance structure is designed to accommodate the
+              progressive introduction of an independent board of
+              directors, sector advisory councils, and formal ESG
+              disclosure. These provisions are structural commitments
+              embedded in the Group&apos;s constitutional documents, not
+              future aspirations.
             </p>
           </FadeIn>
         </div>
@@ -191,23 +193,24 @@ export default async function GroupPage({ params }: GroupPageProps) {
         <div className="mx-auto max-w-3xl px-6 text-center">
           <FadeIn>
             <h2 className="font-display text-[var(--text-display)] text-ivory leading-tight">
-              Interested in Njoh Group?
+              Enquiries
             </h2>
             <p className="mt-6 text-[var(--text-body-lg)] text-ash leading-relaxed">
-              Whether you are an investor, a partner, a journalist, or someone
-              who wants to build — we would like to hear from you.
+              Institutional partners, accredited investors, and members of
+              the press may direct enquiries through the appropriate
+              channel below.
             </p>
           </FadeIn>
           <FadeIn delay={0.2}>
             <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row sm:flex-wrap justify-center gap-3 sm:gap-4">
               <Button variant="primary" size="lg" href={`${prefix}/partners`}>
-                Partner with us
+                Institutional partnerships
               </Button>
               <Button variant="secondary" size="lg" href={`${prefix}/vision`}>
                 Read the thesis
               </Button>
               <Button variant="ghost" size="lg" href={`${prefix}/contact`}>
-                Contact us
+                General enquiries
               </Button>
             </div>
           </FadeIn>

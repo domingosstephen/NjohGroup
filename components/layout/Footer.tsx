@@ -27,7 +27,7 @@ export function Footer({ locale, dict }: FooterProps) {
     { label: t(dict, "nav.leadership"), href: `${prefix}/leadership` },
     { label: t(dict, "nav.insights"), href: `${prefix}/insights` },
     { label: t(dict, "nav.careers"), href: `${prefix}/careers` },
-    { label: "Press", href: `${prefix}/press` },
+    { label: "Press & media", href: `${prefix}/press` },
     { label: t(dict, "nav.partnerCta"), href: `${prefix}/partners` },
   ];
 
@@ -92,7 +92,7 @@ export function Footer({ locale, dict }: FooterProps) {
           {/* Column 3 — Company */}
           <div>
             <MonoLabel as="p" className="text-stone mb-6">
-              Company
+              Group
             </MonoLabel>
             <ul className="space-y-3">
               {companyLinks.map((link) => (
@@ -111,7 +111,7 @@ export function Footer({ locale, dict }: FooterProps) {
           {/* Column 4 — Connect */}
           <div>
             <MonoLabel as="p" className="text-stone mb-6">
-              Connect
+              Correspondence
             </MonoLabel>
             <ul className="space-y-3">
               <li>

@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: LeadershipPageProps) {
   return generatePageMetadata({
     title: "Leadership",
     description:
-      "Meet the people building Njoh Group PLC — a young team with a long mission to build pan-African institutions.",
+      "The leadership of Njoh Group PLC — governance, direction, and the individuals responsible for the Group's institutional mandate.",
     locale: locale as Locale,
     path: "/leadership",
   });
@@ -67,12 +67,12 @@ export default async function LeadershipPage({ params }: LeadershipPageProps) {
                 </blockquote>
 
                 <p className="text-obsidian/70 leading-relaxed">
-                  Njih Njoh Keka is the founder and CEO of Njoh Group PLC, a
-                  pan-African holding company building across real estate,
-                  outsourcing, agriculture, and logistics. Born in Cameroon and
-                  now operating from S&atilde;o Paulo, Brazil, he leads a
-                  diaspora-built institution designed to serve the continent over
-                  decades, not quarters.
+                  Njih Njoh Keka founded Njoh Group PLC in 2021 to address
+                  what he identified as a structural gap in the African
+                  institutional landscape. Born in Cameroon and based in
+                  S&atilde;o Paulo, he oversees the Group&apos;s operations
+                  across real estate, outsourcing, agriculture, and logistics
+                  from its principal office in Brazil.
                 </p>
 
                 <div className="mt-8">
@@ -96,18 +96,19 @@ export default async function LeadershipPage({ params }: LeadershipPageProps) {
           <FadeIn>
             <MonoLabel className="text-ash">THE TEAM</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-ivory leading-snug max-w-2xl">
-              Growing with intention.
+              Organisational development.
             </h2>
             <GoldRule width="40px" className="my-6" />
             <p className="mt-4 text-ash leading-relaxed max-w-2xl">
-              The Njoh Group team will be introduced here as the Group grows. We
-              are currently a team of approximately 20 people across Yaound&eacute;,
-              S&atilde;o Paulo, and Madrid — building the foundations of each sector
-              and preparing for the next phase of growth.
+              The Group presently employs approximately 20 people across
+              Yaound&eacute;, S&atilde;o Paulo, and Madrid, distributed across
+              sector operations and corporate functions. Senior appointments
+              will be published on this page as the Group advances through its
+              current phase of institutional formation.
             </p>
             <p className="mt-6 text-ash leading-relaxed max-w-2xl">
-              As we expand, this page will feature the leaders and operators who
-              make the Group&apos;s mission possible.
+              Biographical profiles of divisional leaders and board appointees
+              will appear here as the organisational structure matures.
             </p>
           </FadeIn>
         </div>
@@ -118,16 +119,17 @@ export default async function LeadershipPage({ params }: LeadershipPageProps) {
         <div className="mx-auto max-w-3xl px-6 text-center">
           <FadeIn>
             <h2 className="font-display text-[var(--text-h2)] text-obsidian leading-snug">
-              Want to join this team?
+              Careers at Njoh Group
             </h2>
             <p className="mt-4 text-obsidian/70 leading-relaxed">
-              We are looking for people who want to build institutions, not just
-              companies. If you believe in patient, ambitious work — we want to
-              hear from you.
+              The Group recruits individuals whose professional standards
+              and long-term orientation are consistent with institutional
+              work of this nature. Open positions and the talent registry
+              are maintained on the careers page.
             </p>
             <div className="mt-8">
               <Button variant="primary" size="lg" href={`${prefix}/careers`}>
-                View careers
+                Open positions
               </Button>
             </div>
           </FadeIn>

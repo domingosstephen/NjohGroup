@@ -34,7 +34,7 @@ export default async function EmergingPage({ params }: EmergingPageProps) {
       tagline: "Africa\u2019s stories, told by African institutions.",
       paragraphs: [
         "Africa is the youngest continent on earth, and its cultural output \u2014 music, film, fashion, digital content \u2014 is already shaping global trends. But the media infrastructure that captures and monetises that output is still largely owned and operated outside the continent.",
-        "Njoh Group sees an opportunity to build media companies that combine African creative talent with institutional-grade distribution, monetisation, and technology. Not as a content play, but as an infrastructure play \u2014 the platforms and systems that African creators need to reach global audiences on their own terms.",
+        "The opportunity is in media companies that combine African creative talent with institutional-grade distribution, monetisation, and operational infrastructure. Not a content play, but an infrastructure play \u2014 the platforms and systems that African creators require to reach global audiences on their own terms.",
         "This is an area of active research. We are studying the landscape, building relationships, and developing our thesis before committing capital.",
       ],
     },
@@ -44,7 +44,7 @@ export default async function EmergingPage({ params }: EmergingPageProps) {
       tagline: "Building the tools Africa\u2019s economy runs on.",
       paragraphs: [
         "Africa\u2019s tech ecosystem has grown dramatically over the past decade \u2014 but much of the growth has been in consumer-facing fintech. The enterprise software, infrastructure tooling, and B2B platforms that mature economies rely on are still largely absent or imported.",
-        "Njoh Group is interested in the technology companies that serve African businesses \u2014 not consumer apps, but the operational backbone: ERP systems, logistics platforms, workforce management tools, and industry-specific software built for African market conditions.",
+        "The interest is in technology companies that serve African businesses \u2014 not consumer applications, but the operational backbone: ERP systems, logistics platforms, workforce management tools, and industry-specific software built for African market conditions.",
         "We are not yet active in this space. We are watching, learning, and waiting for the right entry point.",
       ],
     },
@@ -54,7 +54,7 @@ export default async function EmergingPage({ params }: EmergingPageProps) {
       tagline: "Institutional-grade health infrastructure for a continent that needs it.",
       paragraphs: [
         "Africa has roughly 3% of the world\u2019s healthcare workers serving 17% of the global population. The infrastructure gap \u2014 in facilities, diagnostics, supply chains, and trained personnel \u2014 is staggering. And it is growing as the population expands.",
-        "Njoh Group sees healthcare as a long-term opportunity that aligns with our core capabilities: real estate (facilities), logistics (supply chains), outsourcing (workforce), and AI (diagnostics and operations). The intersection of our four sectors creates a natural foundation for healthcare infrastructure.",
+        "Healthcare is a long-term opportunity that aligns with the group\u2019s core capabilities: real estate (facilities), logistics (supply chains), outsourcing (workforce), and automated systems (diagnostics and operations). The intersection of the four operating sectors creates a natural foundation for healthcare infrastructure.",
         "This is the most complex opportunity we are tracking, and the one where patience matters most. We will enter healthcare when we have the team, the capital, and the local partnerships to do it right.",
       ],
     },
@@ -109,23 +109,23 @@ export default async function EmergingPage({ params }: EmergingPageProps) {
         <div className="mx-auto max-w-3xl px-6 text-center">
           <FadeIn>
             <h2 className="font-display text-[var(--text-h2)] text-ivory leading-snug">
-              Have expertise in these areas?
+              Sector expertise.
             </h2>
             <p className="mt-6 text-ash text-[var(--text-body-lg)] leading-relaxed">
-              We are always looking for people who understand these sectors deeply
-              and share our long-term vision for the continent. If you have
-              experience in media, technology, or healthcare in Africa, we would
-              like to hear from you.
+              These areas benefit from the perspective of those who understand
+              them deeply and share a long-term view of the continent. Individuals
+              with institutional experience in media, technology, or healthcare
+              across Africa are invited to register their interest.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.2}>
             <div className="mt-12 flex flex-wrap justify-center gap-4">
               <Button variant="primary" size="lg" href={`${prefix}/contact`}>
-                Get in touch
+                General inquiries
               </Button>
               <Button variant="ghost" size="lg" href={`${prefix}/sectors`}>
-                Back to all sectors
+                All sectors
               </Button>
             </div>
           </FadeIn>

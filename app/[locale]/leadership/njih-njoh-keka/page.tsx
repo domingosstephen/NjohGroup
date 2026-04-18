@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: FounderPageProps) {
   return generatePageMetadata({
     title: "Njih Njoh Keka — Founder & CEO",
     description:
-      "The story and vision of Njih Njoh Keka, founder and CEO of Njoh Group PLC.",
+      "Biographical profile of Njih Njoh Keka, Founder and Chief Executive Officer of Njoh Group PLC.",
     locale: locale as Locale,
     path: "/leadership/njih-njoh-keka",
   });
@@ -46,14 +46,15 @@ export default async function FounderProfilePage({
           <FadeIn>
             <MonoLabel className="text-obsidian/50">ORIGIN</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
-              From Cameroon to the world.
+              Early life and formation.
             </h2>
             <p className="mt-6">
-              Njih Njoh Keka was born and raised in Cameroon, in a family shaped
-              by entrepreneurship, public service, and a deep belief in the
-              continent&apos;s potential. From an early age, he was exposed to
-              the tension between Africa&apos;s extraordinary human capital and
-              the institutional gaps that prevented it from compounding.
+              Njih Njoh Keka was born and raised in Cameroon into a family
+              with a tradition of enterprise and public service. From an
+              early period he observed the disparity between the
+              continent&apos;s considerable human capital and the absence
+              of the institutional structures required to convert that
+              capital into durable economic value.
             </p>
             <p className="mt-6 text-obsidian/60 italic">
               [FOUNDER TO REVIEW — Additional biographical details about early
@@ -90,7 +91,7 @@ export default async function FounderProfilePage({
             <div className="mt-12 sm:mt-16 lg:mt-20">
               <GoldRule width="40px" className="mb-4" />
               <h2 className="font-display text-[var(--text-h2)] text-obsidian leading-snug">
-                The thesis, in his words.
+                The institutional thesis.
               </h2>
               <blockquote className="mt-8 border-l-2 border-njoh-gold pl-8">
                 <p className="font-display italic text-lg text-obsidian leading-relaxed">
@@ -127,7 +128,7 @@ export default async function FounderProfilePage({
           {/* Contact */}
           <FadeIn>
             <div className="mt-12 sm:mt-16 lg:mt-20 border-t border-stone/20 pt-12">
-              <MonoLabel className="text-obsidian/50">CONNECT</MonoLabel>
+              <MonoLabel className="text-obsidian/50">CORRESPONDENCE</MonoLabel>
               <div className="mt-6 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
                 <Button
                   variant="secondary"

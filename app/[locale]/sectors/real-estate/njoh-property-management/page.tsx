@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: NpmPageProps) {
   return generatePageMetadata({
     title: "Njoh Property Management",
     description:
-      "Professional, AI-powered property management for Cameroon and beyond. Njoh Group's first operating subsidiary, live since 2021.",
+      "Institutional property management for Cameroon and beyond. Njoh Group's first operating subsidiary, active since 2021.",
     locale: locale as Locale,
     path: "/sectors/real-estate/njoh-property-management",
   });
@@ -31,32 +31,32 @@ export default async function NjohPropertyManagementPage({ params }: NpmPageProp
     {
       title: "Tenant Relations",
       detail:
-        "End-to-end tenant lifecycle management \u2014 from screening and onboarding to communications and renewals. AI-assisted systems ensure fast response times and consistent service quality.",
+        "Structured tenant lifecycle administration \u2014 from screening and onboarding to communications and renewals. Automated response coordination and standardised protocols maintain the consistency that institutional owners expect.",
     },
     {
       title: "Maintenance & Operations",
       detail:
-        "Predictive maintenance scheduling, vendor coordination, and responsive repair management. We combine local teams with data-driven oversight to keep properties performing at their best.",
+        "Scheduled and responsive maintenance, vendor coordination, and repair administration. Local teams operate under centralised, data-informed oversight \u2014 the standard that preserves asset value over time.",
     },
     {
       title: "Financial Management",
       detail:
-        "Rent collection, expense tracking, and transparent owner reporting. Every property owner receives institutional-grade financial statements and real-time portfolio visibility.",
+        "Rent collection, expense reconciliation, and transparent reporting. Every property owner receives institutional-grade financial statements and portfolio-level visibility \u2014 the baseline that serious capital requires.",
     },
     {
       title: "Portfolio Intelligence",
       detail:
-        "Market analysis, occupancy benchmarking, and performance analytics. We use data to make better decisions about pricing, capital improvements, and portfolio strategy.",
+        "Market analysis, occupancy benchmarking, and performance measurement. The intelligence layer that informs pricing, capital allocation, and long-term portfolio strategy.",
     },
     {
       title: "Compliance & Legal",
       detail:
-        "Lease administration, regulatory compliance, and legal coordination. We handle the complexity so property owners can focus on returns.",
+        "Lease administration, regulatory compliance, and legal coordination. The procedural rigour that protects both asset value and owner interest across jurisdictions.",
     },
     {
       title: "Growth Advisory",
       detail:
-        "Acquisition analysis, market entry strategy, and portfolio optimisation. For owners looking to grow, we provide the intelligence and operational capacity to scale.",
+        "Acquisition analysis, market entry assessment, and portfolio optimisation. The advisory function that institutional owners rely on when expanding across unfamiliar markets.",
     },
   ];
 
@@ -65,7 +65,7 @@ export default async function NjohPropertyManagementPage({ params }: NpmPageProp
       <PageHero
         label="OPERATING SUBSIDIARY"
         title="Njoh Property Management."
-        subtitle="Professional property management for Cameroon and beyond."
+        subtitle="The operating standard for property in Cameroon and beyond."
         meta="OPERATING \u00b7 CAMEROON \u00b7 SINCE 2021"
         height="60vh"
       />
@@ -84,20 +84,21 @@ export default async function NjohPropertyManagementPage({ params }: NpmPageProp
 
           <FadeIn delay={0.1}>
             <p className="mt-8">
-              We believe that professional property management is not a luxury
-              reserved for mature markets. African property owners and tenants
-              deserve the same quality of service available in London, Dubai, or New
-              York \u2014 and AI-native operations make it possible to deliver that
-              standard at African cost structures.
+              In any mature property market, professional management is not a
+              luxury \u2014 it is the minimum condition for preserving asset value.
+              African property owners and tenants are entitled to the same standard
+              available in London, Dubai, or New York. Systematised operations
+              and automated workflows make it possible to deliver that standard
+              at African cost structures.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.15}>
             <p className="mt-8">
-              NPM is both a standalone business and a proving ground. Every system
-              we build, every AI workflow we deploy, and every process we refine in
-              Cameroon becomes the playbook for managing thousands of properties
-              across the continent.
+              NPM is both a standalone business and an operational proving ground.
+              Every system established, every workflow refined in Cameroon becomes
+              the playbook for administering thousands of properties across the
+              continent.
             </p>
           </FadeIn>
         </div>
@@ -107,9 +108,9 @@ export default async function NjohPropertyManagementPage({ params }: NpmPageProp
       <section className="bg-obsidian py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <FadeIn>
-            <MonoLabel className="text-njoh-gold">WHAT WE DO</MonoLabel>
+            <MonoLabel className="text-njoh-gold">SCOPE OF MANAGEMENT</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-ivory leading-snug">
-              Full-spectrum property management.
+              What institutional management includes.
             </h2>
           </FadeIn>
 
@@ -137,19 +138,19 @@ export default async function NjohPropertyManagementPage({ params }: NpmPageProp
           <FadeIn>
             <GoldRule width="40px" className="mb-6" />
             <h2 className="font-display text-[var(--text-h2)] text-obsidian leading-snug">
-              AI-native from day one.
+              Systematised from the foundation.
             </h2>
             <p className="mt-8">
-              NPM does not use AI as a feature. It uses AI as infrastructure.
               Tenant communications, maintenance scheduling, financial reporting,
-              and market analysis are all powered by AI systems built into the core
-              of our operations.
+              and market analysis are administered through automated systems built
+              into the core of operations \u2014 not appended as an afterthought,
+              but embedded as infrastructure.
             </p>
             <p className="mt-6">
-              This is how a small team in Cameroon delivers the same service quality
-              as firms managing thousands of units in mature markets. The AI layer
-              is our structural advantage \u2014 and it compounds with every
-              property we add.
+              This is how a lean team in Cameroon maintains the same service
+              standard as firms administering thousands of units in mature markets.
+              The operational leverage is structural \u2014 and it compounds with
+              every property added to the portfolio.
             </p>
           </FadeIn>
         </div>
@@ -160,21 +161,22 @@ export default async function NjohPropertyManagementPage({ params }: NpmPageProp
         <div className="mx-auto max-w-3xl px-6 text-center">
           <FadeIn>
             <h2 className="font-display text-[var(--text-h2)] text-ivory leading-snug">
-              Own property in Cameroon?
+              Property owners in Cameroon.
             </h2>
             <p className="mt-6 text-ash text-[var(--text-body-lg)] leading-relaxed">
-              Whether you own one unit or an entire portfolio, NPM delivers
-              institutional-grade management with full transparency and AI-powered
-              efficiency.
+              Whether the holding is a single unit or a diversified portfolio,
+              NPM administers property to the institutional standard \u2014 full
+              transparency, systematic oversight, and the operational discipline
+              that preserves long-term value.
             </p>
           </FadeIn>
           <FadeIn delay={0.2}>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <Button variant="primary" size="lg" href={`${prefix}/contact`}>
-                Get in touch
+                Management inquiries
               </Button>
               <Button variant="ghost" size="lg" href={`${prefix}/sectors/real-estate`}>
-                Back to Real Estate
+                Real estate sector
               </Button>
             </div>
           </FadeIn>

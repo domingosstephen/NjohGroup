@@ -89,7 +89,7 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
               6. Contact
             </h2>
             <p className="mt-4">
-              For privacy-related inquiries, please contact us at{" "}
+              For privacy-related enquiries, direct correspondence to{" "}
               <a
                 href={`mailto:${EMAILS.general}`}
                 className="text-njoh-gold hover:text-gold-light transition-colors"

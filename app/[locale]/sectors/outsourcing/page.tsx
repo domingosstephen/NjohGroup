@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: OutsourcingPageProps) {
   return generatePageMetadata({
     title: "Outsourcing",
     description:
-      "African talent, operating at the top of the global market. Njoh Group is building BPO and tech-outsourcing firms that keep more value on the continent.",
+      "African talent, operating at the top of the global market. BPO and tech-outsourcing firms structured to retain more value on the continent.",
     locale: locale as Locale,
     path: "/sectors/outsourcing",
   });
@@ -31,16 +31,16 @@ export default async function OutsourcingPage({ params }: OutsourcingPageProps) 
     {
       number: "01",
       title: "Business Process Outsourcing",
-      tagline: "World-class service delivery from African operational centres.",
+      tagline: "The service standard that global clients expect, delivered from African operational centres.",
       description:
-        "Customer support, back-office operations, data processing, and administrative services \u2014 delivered by trained African professionals supported by AI-powered quality assurance, workflow automation, and real-time analytics. Our BPO operations are designed to compete with the best global providers on quality, not just on price.",
+        "Customer support, back-office operations, data processing, and administrative services \u2014 delivered by trained African professionals operating within automated quality assurance, structured workflow systems, and real-time performance analytics. The standard is to compete with the best global providers on quality, not merely on price.",
     },
     {
       number: "02",
       title: "Tech Outsourcing",
-      tagline: "Software engineering, data science, and digital services for global clients.",
+      tagline: "Structured engineering and digital services for institutional clients worldwide.",
       description:
-        "Africa produces hundreds of thousands of STEM graduates every year. Njoh Group is building the firms that connect that talent with global demand \u2014 not as freelancers, but as structured teams with proper infrastructure, career development, and AI-augmented tooling. We deliver software engineering, QA, data annotation, DevOps, and design services at a level that competes with Eastern European and South Asian providers.",
+        "Africa produces hundreds of thousands of STEM graduates every year. The opportunity is in organising that talent into structured teams with proper infrastructure, career development, and systematised tooling \u2014 not freelancers, but firms. Software engineering, QA, data annotation, DevOps, and design services delivered at a level that competes directly with Eastern European and South Asian providers.",
     },
   ];
 
@@ -70,19 +70,19 @@ export default async function OutsourcingPage({ params }: OutsourcingPageProps) 
           <FadeIn delay={0.1}>
             <p className="mt-8">
               Most outsourcing value flows to intermediaries in other regions. The
-              talent is African; the margins are not. Njoh Group is building the
-              outsourcing companies that change that equation \u2014 keeping more
-              value on the continent while delivering premium service to global
-              clients.
+              talent is African; the margins are not. The structural opportunity
+              is in building the firms that reverse that flow \u2014 retaining
+              more value on the continent while maintaining premium service
+              standards for global clients.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.15}>
             <p className="mt-8 font-medium">
-              Our thesis is not cheap labour arbitrage. It is premium service
-              delivery at structurally competitive cost \u2014 because the talent is
-              genuinely excellent and the AI layer multiplies every person&apos;s
-              output.
+              The thesis is not labour arbitrage. It is premium service delivery
+              at structurally competitive cost \u2014 because the talent is
+              genuinely excellent and systematised operations multiply every
+              person&apos;s output.
             </p>
           </FadeIn>
         </div>
@@ -94,7 +94,7 @@ export default async function OutsourcingPage({ params }: OutsourcingPageProps) 
           <FadeIn>
             <MonoLabel className="text-njoh-gold">TWO VERTICALS</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-ivory leading-snug">
-              Where we are building.
+              What competitive outsourcing requires.
             </h2>
           </FadeIn>
 
@@ -124,19 +124,20 @@ export default async function OutsourcingPage({ params }: OutsourcingPageProps) 
           <FadeIn>
             <GoldRule width="40px" className="mb-6" />
             <h2 className="font-display text-[var(--text-h2)] text-obsidian leading-snug">
-              AI as the multiplier.
+              The operational multiplier.
             </h2>
             <p className="mt-8">
-              Every outsourcing firm in the world is racing to integrate AI. Most
-              are retrofitting it onto legacy processes. Njoh Group&apos;s
-              outsourcing companies are built AI-native from day one \u2014 which
-              means every workflow, every quality check, and every client
-              deliverable is designed around AI augmentation from the start.
+              Every outsourcing firm in the world is attempting to integrate
+              automation. Most are retrofitting it onto legacy processes. The
+              firms Njoh Group builds are structured from inception around
+              automated quality assurance, workflow orchestration, and
+              machine-assisted delivery \u2014 so that every process is
+              designed for leverage from the start.
             </p>
             <p className="mt-6">
               The result: a team of 50 in Yaound\u00e9 delivers the output of a
-              team of 200 elsewhere. Not because the people work harder, but because
-              the system is built to multiply their excellence.
+              team of 200 elsewhere. Not because the people work harder, but
+              because the operating system is built to multiply their excellence.
             </p>
           </FadeIn>
         </div>
@@ -151,25 +152,24 @@ export default async function OutsourcingPage({ params }: OutsourcingPageProps) 
               Foundational phase.
             </h2>
             <p className="mt-8 text-ash text-[var(--text-body-lg)] leading-relaxed">
-              Our outsourcing arm is in active development. We are assembling the
-              founding team, building the AI-native operational platform, and
-              securing our first anchor clients. Target launch is 2026.
+              The outsourcing arm is in active development. The founding team is
+              being assembled, the operational platform is under construction, and
+              first anchor client relationships are forming. Target launch is 2026.
             </p>
             <p className="mt-6 text-ash leading-relaxed">
-              We are not rushing to market with a half-built product. We are
-              building the operational infrastructure first \u2014 because in
-              outsourcing, the quality of your system determines the quality of your
-              service.
+              The operational infrastructure comes first \u2014 because in
+              outsourcing, the quality of the system determines the quality of
+              the service. This is an honest, foundational phase.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.2}>
             <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row sm:flex-wrap justify-center gap-3 sm:gap-4">
               <Button variant="primary" size="lg" href={`${prefix}/partners`}>
-                Partner with us
+                Partnership inquiries
               </Button>
               <Button variant="ghost" size="lg" href={`${prefix}/sectors`}>
-                Back to all sectors
+                All sectors
               </Button>
             </div>
           </FadeIn>

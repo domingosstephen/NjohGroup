@@ -21,17 +21,17 @@ const placeholderArticles = [
   {
     category: "AFRICA THESIS",
     title: "Why the next fifty years belong to the continent",
-    date: "Coming soon",
+    date: "Forthcoming",
   },
   {
     category: "SECTOR PERSPECTIVES",
     title: "The logistics gap: Africa's most undervalued infrastructure problem",
-    date: "Coming soon",
+    date: "Forthcoming",
   },
   {
-    category: "AI & OPERATIONS",
-    title: "AI-native from day one: what it means in practice",
-    date: "Coming soon",
+    category: "INDUSTRIAL STRATEGY",
+    title: "Operational integration across emerging markets: lessons from the first three years",
+    date: "Forthcoming",
   },
 ];
 

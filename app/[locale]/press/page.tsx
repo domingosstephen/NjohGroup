@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: PressPageProps) {
   return generatePageMetadata({
     title: "Press & Media",
     description:
-      "Press releases, media coverage, and media resources for Njoh Group PLC.",
+      "Official press releases, media coverage, and institutional press resources for Njoh Group PLC.",
     locale: locale as Locale,
     path: "/press",
   });
@@ -79,9 +79,10 @@ export default async function PressPage({ params }: PressPageProps) {
             <MonoLabel className="text-ash">MEDIA COVERAGE</MonoLabel>
             <GoldRule width="40px" className="my-4" />
             <p className="mt-4 text-ash leading-relaxed max-w-2xl">
-              As a newly launched company, media coverage will be collected and
-              displayed here as it appears. If you are a journalist interested
-              in covering Njoh Group, please reach out to our press team.
+              Media coverage of the Group will be archived and displayed
+              in this section as it is published. Accredited journalists
+              seeking information or comment may direct enquiries to the
+              press office.
             </p>
             <div className="mt-6">
               <Button
@@ -89,7 +90,7 @@ export default async function PressPage({ params }: PressPageProps) {
                 size="md"
                 href={`mailto:${EMAILS.press}`}
               >
-                Contact press team
+                Press office enquiries
               </Button>
             </div>
           </FadeIn>
@@ -102,7 +103,7 @@ export default async function PressPage({ params }: PressPageProps) {
           <FadeIn>
             <MonoLabel className="text-obsidian/50">MEDIA KIT</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
-              Downloadable assets.
+              Institutional press resources.
             </h2>
             <GoldRule width="40px" className="my-6" />
           </FadeIn>
@@ -135,11 +136,11 @@ export default async function PressPage({ params }: PressPageProps) {
           <FadeIn>
             <MonoLabel className="text-ash">MEDIA CONTACT</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-ivory leading-snug">
-              Get in touch with our press team.
+              Press office.
             </h2>
             <p className="mt-6 text-ash leading-relaxed">
-              For press inquiries, interview requests, or media kit access,
-              please contact us at:
+              For press enquiries, interview requests, or access to
+              institutional media resources, direct correspondence to:
             </p>
             <div className="mt-6">
               <a
@@ -150,7 +151,7 @@ export default async function PressPage({ params }: PressPageProps) {
               </a>
             </div>
             <p className="mt-4 text-sm text-ash">
-              We aim to respond to all press inquiries within 24 hours.
+              The press office responds to enquiries within 24 hours.
             </p>
           </FadeIn>
         </div>

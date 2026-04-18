@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: ContactPageProps) {
   return generatePageMetadata({
     title: "Contact",
     description:
-      "Get in touch with Njoh Group PLC — general inquiries, partnerships, press, and careers.",
+      "Direct enquiries to the appropriate department of Njoh Group PLC — general, institutional partnerships, press, and careers.",
     locale: locale as Locale,
     path: "/contact",
   });
@@ -26,29 +26,29 @@ export async function generateMetadata({ params }: ContactPageProps) {
 const ROUTING_CARDS = [
   {
     label: "GENERAL INQUIRIES",
-    title: "General questions about Njoh Group.",
+    title: "General enquiries.",
     email: EMAILS.general,
-    description: "For general information, introductions, or questions about the Group.",
+    description: "For general correspondence, introductions, or questions regarding the Group and its operations.",
   },
   {
     label: "INSTITUTIONAL PARTNERSHIPS",
-    title: "Partner with us.",
+    title: "Institutional partnerships.",
     email: EMAILS.partners,
-    description: "For governments, investors, institutions, and strategic partners.",
+    description: "For sovereign entities, development finance institutions, investors, and strategic partners.",
     href: "/partners",
   },
   {
     label: "PRESS & MEDIA",
-    title: "Media inquiries.",
+    title: "Press office.",
     email: EMAILS.press,
-    description: "For journalists, publications, and media organisations.",
+    description: "For accredited journalists, editorial offices, and broadcast media.",
     href: "/press",
   },
   {
     label: "CAREERS",
-    title: "Work with us.",
+    title: "Careers and appointments.",
     email: EMAILS.careers,
-    description: "For job inquiries, talent pipeline registration, and recruitment.",
+    description: "For position enquiries, candidate registration, and recruitment matters.",
     href: "/careers",
   },
 ] as const;
@@ -70,7 +70,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <FadeIn>
-            <MonoLabel className="text-obsidian/50">REACH THE RIGHT TEAM</MonoLabel>
+            <MonoLabel className="text-obsidian/50">SELECT THE APPROPRIATE CHANNEL</MonoLabel>
             <GoldRule width="40px" className="my-4" />
           </FadeIn>
 
@@ -97,7 +97,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
                         href={`${prefix}${card.href}`}
                         className="text-sm text-obsidian/60 hover:text-obsidian transition-colors font-body"
                       >
-                        Visit page &rarr;
+                        View details &rarr;
                       </a>
                     )}
                   </div>
@@ -114,7 +114,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
           <FadeIn>
             <MonoLabel className="text-ash">OUR OFFICES</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-ivory leading-snug">
-              Where to find us.
+              Office locations.
             </h2>
             <GoldRule width="40px" className="my-6" />
           </FadeIn>
@@ -146,7 +146,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
           <FadeIn>
             <MonoLabel className="text-obsidian/50">SEND A MESSAGE</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
-              Write to us directly.
+              General correspondence.
             </h2>
             <GoldRule width="40px" className="my-6" />
           </FadeIn>
@@ -197,7 +197,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
               </div>
               <div>
                 <Button variant="primary" size="lg">
-                  Send message
+                  Submit
                 </Button>
                 <p className="mt-3 text-xs text-obsidian/50">
                   Form integration coming soon. In the meantime, email{" "}

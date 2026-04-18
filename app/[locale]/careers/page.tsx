@@ -25,29 +25,29 @@ export async function generateMetadata({ params }: CareersPageProps) {
 
 const WHY_WORK_HERE = [
   {
-    title: "Build something that matters.",
+    title: "The mission is large and the horizon is long.",
     description:
-      "You will not be optimising click-through rates or tweaking ad funnels. You will be building the institutions that serve a continent of 2.5 billion people. The work is hard, the timeline is long, and the stakes are real.",
+      "The Group exists to build the institutional infrastructure that a continent of 2.5 billion people will require. The work demands patience, rigour, and a tolerance for complexity that most organisations cannot sustain.",
   },
   {
-    title: "AI-native from day one.",
+    title: "Technology enables the work, not the other way around.",
     description:
-      "Every team at Njoh Group uses AI as infrastructure — not as a side project. You will work with the most advanced tools available, applied to problems that genuinely matter: logistics routing, agricultural yield prediction, property intelligence, workforce operations.",
+      "Every division uses machine learning, automation, and computational analysis as standard operating tools — applied to logistics routing, agricultural yield forecasting, property intelligence, and workforce coordination. The technology serves the institutional mandate.",
   },
   {
-    title: "A diaspora-connected team.",
+    title: "A distributed, internationally composed organisation.",
     description:
-      "Our team spans Yaoundé, São Paulo, and Madrid. We are Cameroonian, Brazilian, European, and global — bound by a shared belief in what Africa is becoming. You will work alongside people who chose this mission.",
+      "The Group's personnel are based across Yaoundé, São Paulo, and Madrid. The team is Cameroonian, Brazilian, European, and international — unified by a shared institutional commitment to Africa's economic development.",
   },
   {
-    title: "Ownership and autonomy.",
+    title: "The nature of early-stage institutional work.",
     description:
-      "We are a small team building across four sectors. There are no layers of middle management, no approval chains that take weeks. If you are good, you will have more responsibility here than anywhere else — from your first month.",
+      "A compact organisation operating across four sectors requires individuals who exercise independent judgment. Responsibility at the Group is commensurate with capability, not tenure. The organisational structure is flat by design.",
   },
   {
-    title: "Long-term thinking, real compensation.",
+    title: "Compensation reflects the commitment required.",
     description:
-      "We are building for decades, and we want people who think the same way. We offer competitive compensation, equity participation, and the kind of career trajectory that only comes from being early at something important.",
+      "The Group's compensation framework includes market-appropriate remuneration and equity participation. The positions available are suited to individuals whose professional horizon extends well beyond the conventional cycle.",
   },
 ] as const;
 
@@ -61,7 +61,7 @@ export default async function CareersPage({ params }: CareersPageProps) {
       <PageHero
         label="CAREERS AT NJOH GROUP"
         title="Work on the institutions Africa will need."
-        subtitle="We are looking for people who want to build something that lasts."
+        subtitle="The Group seeks individuals whose standards and ambition are equal to the mandate."
         height="60vh"
       />
 
@@ -69,7 +69,7 @@ export default async function CareersPage({ params }: CareersPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-obsidian font-body text-[var(--text-body-lg)] leading-[1.7]">
           <FadeIn>
-            <MonoLabel className="text-obsidian/50">WHY WORK HERE</MonoLabel>
+            <MonoLabel className="text-obsidian/50">WHAT THE WORK REQUIRES</MonoLabel>
             <GoldRule width="40px" className="my-4" />
           </FadeIn>
 
@@ -103,13 +103,13 @@ export default async function CareersPage({ params }: CareersPageProps) {
           <FadeIn delay={0.1}>
             <div className="mt-8 border border-graphite/30 p-6 sm:p-8 lg:p-12 text-center">
               <h3 className="font-display text-xl text-ivory">
-                No open roles at this time.
+                No positions are currently listed.
               </h3>
               <p className="mt-4 text-ash leading-relaxed max-w-lg mx-auto">
-                We are always looking for exceptional people. If you believe you
-                can contribute to Njoh Group&apos;s mission, submit your
-                information below and we will reach out when a relevant role
-                opens.
+                The Group maintains a standing registry of qualified
+                candidates. Individuals who wish to be considered for future
+                appointments may submit their credentials through the form
+                below. The registry is reviewed when positions arise.
               </p>
             </div>
           </FadeIn>
@@ -118,11 +118,12 @@ export default async function CareersPage({ params }: CareersPageProps) {
           <FadeIn delay={0.2}>
             <div className="mt-8 sm:mt-12 border border-graphite/30 p-4 sm:p-6 lg:p-8">
               <h3 className="font-display text-lg text-ivory">
-                Join the talent pipeline.
+                Register for consideration.
               </h3>
               <p className="mt-2 text-sm text-ash">
-                Tell us about yourself and we will keep you in mind for future
-                opportunities.
+                Submit your credentials to the Group&apos;s candidate
+                registry. Qualified registrants will be contacted as
+                positions become available.
               </p>
               <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
@@ -169,13 +170,13 @@ export default async function CareersPage({ params }: CareersPageProps) {
                     <option>Agriculture</option>
                     <option>Logistics</option>
                     <option>Group Operations</option>
-                    <option>AI & Technology</option>
+                    <option>Technology & Systems</option>
                   </select>
                 </div>
               </div>
               <div className="mt-6">
                 <label className="block text-xs text-ash uppercase tracking-widest font-body mb-2">
-                  Why Njoh Group?
+                  Statement of interest
                 </label>
                 <textarea
                   rows={4}

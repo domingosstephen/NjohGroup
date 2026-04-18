@@ -85,7 +85,7 @@ export default async function TermsPage({ params }: TermsPageProps) {
               6. Contact
             </h2>
             <p className="mt-4">
-              For questions about these terms, please contact us at{" "}
+              For enquiries regarding these terms, direct correspondence to{" "}
               <a
                 href={`mailto:${EMAILS.general}`}
                 className="text-njoh-gold hover:text-gold-light transition-colors"

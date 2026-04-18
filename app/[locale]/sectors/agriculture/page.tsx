@@ -31,16 +31,16 @@ export default async function AgriculturePage({ params }: AgriculturePageProps) 
     {
       number: "01",
       title: "Agri-Processing",
-      tagline: "Turning raw harvest into shelf-stable, exportable value.",
+      tagline: "Where raw harvest becomes shelf-stable, exportable value.",
       description:
-        "Africa produces enormous volumes of raw agricultural output \u2014 but much of it never reaches a market in usable form. Njoh Group invests in processing facilities that transform raw commodities into shelf-stable, industrially valuable products. From cassava to cocoa, from palm oil to grains, we target crops where the processing gap is widest and the demand is most certain.",
+        "Africa produces enormous volumes of raw agricultural output \u2014 but much of it never reaches a market in usable form. The investment position is in processing facilities that transform raw commodities into shelf-stable, industrially valuable products. From cassava to cocoa, from palm oil to grains \u2014 the focus is on crops where the processing gap is widest and demand most certain.",
     },
     {
       number: "02",
       title: "Agri-Tech",
-      tagline: "Data-driven tools for yield, logistics, and market access.",
+      tagline: "The analytical infrastructure that commercial agriculture demands.",
       description:
-        "The next generation of African agriculture will be driven by data. Yield prediction, supply-chain routing, market price intelligence, and input optimisation \u2014 these are the tools that close the gap between subsistence farming and commercial-scale production. Njoh Group builds and invests in the agri-tech platforms that make this transition possible.",
+        "The next generation of African agriculture will be shaped by data. Yield prediction, supply-chain routing, market price intelligence, and input optimisation \u2014 these are the instruments that close the gap between subsistence farming and commercial-scale production. The agri-tech platforms that enable this transition are a core investment focus.",
     },
   ];
 
@@ -69,19 +69,20 @@ export default async function AgriculturePage({ params }: AgriculturePageProps) 
 
           <FadeIn delay={0.1}>
             <p className="mt-8">
-              The gap is not in production. It is in what happens after the harvest.
-              Africa loses up to 40% of its agricultural output between farm and
-              market \u2014 to inadequate storage, poor processing infrastructure,
-              and fragmented logistics. This is not a farming problem. It is an
-              industrial infrastructure problem.
+              The gap is not in production. It is in what happens after the
+              harvest. Forty per cent of Africa&apos;s agricultural output is lost
+              between farm and market \u2014 to inadequate storage, absent
+              processing infrastructure, and fragmented logistics. Forty per cent.
+              This is not a farming problem. It is an industrial infrastructure
+              crisis, and it defines the opportunity.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.15}>
             <p className="mt-8 font-medium">
-              Njoh Group&apos;s agriculture arm invests in the companies that close
-              that gap \u2014 turning raw output into industrial value, and using
-              technology to make every step of the chain more efficient.
+              Njoh Group&apos;s agriculture position is in the companies that
+              close that gap \u2014 turning raw output into industrial value, and
+              applying systematic process discipline to every step of the chain.
             </p>
           </FadeIn>
         </div>
@@ -93,7 +94,7 @@ export default async function AgriculturePage({ params }: AgriculturePageProps) 
           <FadeIn>
             <MonoLabel className="text-njoh-gold">TWO VERTICALS</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-ivory leading-snug">
-              Where we are building.
+              What the sector requires.
             </h2>
           </FadeIn>
 
@@ -123,19 +124,20 @@ export default async function AgriculturePage({ params }: AgriculturePageProps) 
           <FadeIn>
             <GoldRule width="40px" className="mb-6" />
             <h2 className="font-display text-[var(--text-h2)] text-obsidian leading-snug">
-              AI across the value chain.
+              Analytical systems across the value chain.
             </h2>
             <p className="mt-8">
-              In agriculture, AI is not a novelty \u2014 it is the difference
-              between a 40% post-harvest loss rate and a 10% one. Yield prediction
-              models tell farmers and processors what to expect. Supply-chain
-              routing algorithms find the fastest path from farm to market. Market
+              In agriculture, the difference between a 40% post-harvest loss rate
+              and a 10% one is not better farming \u2014 it is better systems.
+              Yield prediction models tell processors what to expect. Routing
+              algorithms find the fastest path from farm to market. Market
               intelligence platforms connect producers with buyers in real time.
             </p>
             <p className="mt-6">
-              Njoh Group builds AI into every agricultural operation from the
-              start \u2014 not as an add-on, but as the operating layer that makes
-              the entire system work.
+              These analytical and automation systems are built into every
+              agricultural operation from the start \u2014 not as supplementary
+              tools, but as the operating layer that makes the entire chain
+              function.
             </p>
           </FadeIn>
         </div>
@@ -150,25 +152,25 @@ export default async function AgriculturePage({ params }: AgriculturePageProps) 
               Foundational phase.
             </h2>
             <p className="mt-8 text-ash text-[var(--text-body-lg)] leading-relaxed">
-              Our agriculture arm is in active development. We are identifying
-              first-operation targets in Central and West Africa, building
-              relationships with local agricultural communities, and developing the
-              technology platform that will power our processing and logistics
-              operations.
+              The agriculture arm is in active development. First-operation
+              targets in Central and West Africa are under assessment,
+              relationships with local agricultural communities are forming, and
+              the operational platform for processing and logistics is under
+              construction.
             </p>
             <p className="mt-6 text-ash leading-relaxed">
-              First operation targeted for 2026\u20132027. We move when the team,
-              the thesis, and the fundamentals are aligned.
+              First operation targeted for 2026\u20132027. Capital is deployed
+              when the team, the thesis, and the fundamentals are aligned.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.2}>
             <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row sm:flex-wrap justify-center gap-3 sm:gap-4">
               <Button variant="primary" size="lg" href={`${prefix}/partners`}>
-                Partner with us
+                Partnership inquiries
               </Button>
               <Button variant="ghost" size="lg" href={`${prefix}/sectors`}>
-                Back to all sectors
+                All sectors
               </Button>
             </div>
           </FadeIn>

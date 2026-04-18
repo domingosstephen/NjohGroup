@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: PartnersPageProps) {
   return generatePageMetadata({
     title: "Institutional Inquiries",
     description:
-      "Explore partnership opportunities with Njoh Group PLC — for governments, investors, institutions, and strategic partners.",
+      "Institutional partnership enquiries for Njoh Group PLC — sovereign entities, development finance institutions, investors, and strategic partners.",
     locale: locale as Locale,
     path: "/partners",
   });
@@ -83,20 +83,22 @@ export default async function PartnersPage({ params }: PartnersPageProps) {
             <MonoLabel className="text-obsidian/50">WHO WE PARTNER WITH</MonoLabel>
             <GoldRule width="40px" className="my-4" />
             <p className="mt-6">
-              Njoh Group PLC is a holding company building across four sectors:
-              real estate, outsourcing, agriculture, and logistics. We seek
-              partners who bring patient capital, institutional credibility,
-              sector expertise, or strategic access that accelerates our mission.
+              Njoh Group PLC is a holding company with operations across
+              four sectors: real estate, outsourcing, agriculture, and
+              logistics. The Group considers partnerships with entities
+              that bring patient capital, institutional standing, sector
+              expertise, or strategic access aligned with the Group&apos;s
+              long-term mandate.
             </p>
             <p className="mt-6">
-              We are selective. We do not pursue partnerships for the sake of
-              scale — we pursue them for the sake of building better
-              institutions. If your organisation shares our timeline and our
-              values, we would like to hear from you.
+              Partnership enquiries are evaluated on the basis of
+              institutional alignment, not scale. The Group enters into
+              arrangements that strengthen the durability of its operations
+              and extend its capacity to fulfil its continental mandate.
             </p>
             <p className="mt-6 text-obsidian/60">
-              All inquiries are reviewed by the founder&apos;s office. We aim to
-              respond within five business days.
+              All enquiries are reviewed by the founder&apos;s office.
+              Responses are issued within five business days.
             </p>
           </FadeIn>
         </div>
@@ -108,7 +110,7 @@ export default async function PartnersPage({ params }: PartnersPageProps) {
           <FadeIn>
             <MonoLabel className="text-ash">PARTNERSHIP INQUIRY</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-ivory leading-snug">
-              Tell us about your institution.
+              Submit a partnership enquiry.
             </h2>
             <GoldRule width="40px" className="my-6" />
           </FadeIn>
@@ -280,11 +282,12 @@ export default async function PartnersPage({ params }: PartnersPageProps) {
             <MonoLabel className="text-obsidian/50">WHAT HAPPENS NEXT</MonoLabel>
             <GoldRule width="40px" className="mx-auto my-6" />
             <p className="text-obsidian/70 leading-relaxed">
-              All partnership inquiries are reviewed by the founder&apos;s
-              office. We evaluate alignment with our mission, sector fit,
-              timeline compatibility, and institutional credibility. Qualified
-              inquiries will receive a response within five business days. We
-              treat every inquiry with discretion and confidentiality.
+              All partnership enquiries are reviewed by the founder&apos;s
+              office on the basis of mission alignment, sector relevance,
+              timeline compatibility, and institutional standing. Qualified
+              enquiries receive a response within five business days. All
+              submissions are treated with appropriate discretion and
+              confidentiality.
             </p>
           </FadeIn>
         </div>

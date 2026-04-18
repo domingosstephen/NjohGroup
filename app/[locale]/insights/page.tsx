@@ -71,19 +71,21 @@ export default async function InsightsPage({ params }: InsightsPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[700px] px-6 text-center">
           <FadeIn>
-            <MonoLabel className="text-obsidian/50">COMING SOON</MonoLabel>
+            <MonoLabel className="text-obsidian/50">FORTHCOMING</MonoLabel>
             <h2 className="mt-6 font-display text-[var(--text-h2)] text-obsidian leading-snug">
-              Our inaugural essays are being written.
+              The Group&apos;s inaugural publications are in preparation.
             </h2>
             <GoldRule width="40px" className="mx-auto my-8" />
             <p className="text-obsidian/70 leading-relaxed">
-              Njoh Group believes in thinking in public. Our first essays will
-              cover the Africa thesis, the case for AI-native institutions, and
-              the structural opportunities in each of our four sectors.
+              The first series of essays will address the Africa thesis, the
+              role of computational infrastructure in institutional
+              development, and the structural conditions in each of the
+              Group&apos;s four operating sectors.
             </p>
             <p className="mt-6 text-obsidian/70 leading-relaxed">
-              We are taking the time to get them right. Subscribe below to be
-              notified when they launch.
+              Publication will commence when the editorial standard has been
+              met. To receive the Group&apos;s published perspectives,
+              register below.
             </p>
           </FadeIn>
 
@@ -91,10 +93,10 @@ export default async function InsightsPage({ params }: InsightsPageProps) {
           <FadeIn delay={0.2}>
             <div className="mt-8 sm:mt-12 border border-stone/20 p-4 sm:p-6 lg:p-8 bg-white/50">
               <h3 className="font-display text-lg text-obsidian">
-                Get notified when we publish.
+                Receive the Group&apos;s published perspectives.
               </h3>
               <p className="mt-2 text-sm text-obsidian/60">
-                No spam. Only essays worth reading.
+                Periodic correspondence only. No promotional material.
               </p>
               <div className="mt-6 flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
                 <input
@@ -104,11 +106,11 @@ export default async function InsightsPage({ params }: InsightsPageProps) {
                   disabled
                 />
                 <Button variant="primary" size="md">
-                  Subscribe
+                  Register
                 </Button>
               </div>
               <p className="mt-3 text-xs text-obsidian/40">
-                Newsletter integration coming soon.
+                Registration integration forthcoming.
               </p>
             </div>
           </FadeIn>

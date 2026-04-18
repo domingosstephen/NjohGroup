@@ -31,25 +31,25 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
     {
       title: "Development",
       description:
-        "Ground-up residential and mixed-use projects in high-demand urban corridors. We build for the long term \u2014 quality construction, modern design, and communities that hold value across decades.",
+        "The development standard that serious markets require: ground-up residential and mixed-use projects in high-demand urban corridors, built to hold value across decades. In any maturing African city, this is how lasting communities are made.",
     },
     {
       title: "Management",
       description:
-        "Professional, AI-powered property management that raises the standard across the portfolio. Njoh Property Management is our first operating subsidiary, live in Cameroon since 2021.",
+        "The management discipline that institutional portfolios demand: transparent reporting, systematic maintenance, and tenant relations administered to a standard that is rare in the region. Njoh Property Management has operated in Cameroon since 2021.",
     },
     {
       title: "Investment",
       description:
-        "Strategic acquisitions and joint ventures in African real estate markets where institutional-grade operators are still rare. We seek assets where active management unlocks outsized returns.",
+        "In African real estate markets where institutional-grade operators remain structurally scarce, the opportunity belongs to those prepared to acquire, manage actively, and hold with discipline. This is the investment posture the continent rewards.",
     },
   ];
 
   const npmServices = [
-    { title: "Tenant Relations", description: "AI-assisted communications, screening, and lifecycle management." },
-    { title: "Maintenance", description: "Predictive and responsive maintenance powered by data and local teams." },
-    { title: "Financial Reporting", description: "Transparent, institutional-grade reporting for every property owner." },
-    { title: "Portfolio Intelligence", description: "Market data, occupancy analytics, and performance benchmarking." },
+    { title: "Tenant Relations", description: "Structured screening, lifecycle administration, and response systems calibrated to institutional standards." },
+    { title: "Maintenance", description: "Scheduled and responsive maintenance coordinated through centralised oversight and local teams." },
+    { title: "Financial Reporting", description: "The transparency that serious property owners expect: institutional-grade statements for every asset." },
+    { title: "Portfolio Intelligence", description: "Occupancy analysis, market benchmarking, and performance data \u2014 the basis of informed capital decisions." },
   ];
 
   return (
@@ -87,10 +87,11 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
 
           <FadeIn delay={0.15}>
             <p className="mt-8 font-medium">
-              Njoh Group&apos;s real estate arm exists to fill that gap. We develop,
-              manage, and invest in the buildings that Africa&apos;s urbanisation
-              demands \u2014 starting with Cameroon, and extending across the
-              continent as our capacity and capital grow.
+              This is the structural condition that defines Njoh Group&apos;s
+              real estate position: development, management, and investment
+              across the buildings that Africa&apos;s urbanisation demands
+              \u2014 beginning in Cameroon, extending continent-wide as
+              capacity and capital permit.
             </p>
           </FadeIn>
         </div>
@@ -102,7 +103,7 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
           <FadeIn>
             <MonoLabel className="text-njoh-gold">THREE DISCIPLINES</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-ivory leading-snug">
-              How we operate across the value chain.
+              The disciplines the sector requires.
             </h2>
           </FadeIn>
 
@@ -134,17 +135,18 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
                   Njoh Property Management.
                 </h2>
                 <p className="mt-4 font-display italic text-lg text-obsidian/60 leading-relaxed">
-                  Professional property management for Cameroon and beyond.
+                  The operating standard for property in Cameroon and beyond.
                 </p>
                 <GoldRule width="40px" className="mt-6" />
                 <p className="mt-6 text-obsidian/70 leading-relaxed">
-                  NPM is Njoh Group&apos;s first operating company \u2014 live since
-                  2021, managing residential and commercial properties in Cameroon.
-                  It is the foundation of everything we are building in real estate.
+                  NPM is Njoh Group&apos;s first operating company \u2014 active since
+                  2021, administering residential and commercial properties in Cameroon.
+                  It is the operational foundation from which the broader real estate
+                  portfolio extends.
                 </p>
                 <div className="mt-8">
                   <Button variant="secondary" size="md" href={`${prefix}/sectors/real-estate/njoh-property-management`}>
-                    Learn more about NPM
+                    Njoh Property Management
                   </Button>
                 </div>
               </div>
@@ -188,13 +190,13 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
           <FadeIn delay={0.2}>
             <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row sm:flex-wrap justify-center gap-3 sm:gap-4">
               <Button variant="secondary" size="lg" href={`${prefix}/sectors/logistics`}>
-                Explore Logistics
+                Logistics sector
               </Button>
               <Button variant="ghost" size="lg" href={`${prefix}/sectors`}>
-                Back to all sectors
+                All sectors
               </Button>
               <Button variant="primary" size="lg" href={`${prefix}/partners`}>
-                Partner with us
+                Partnership inquiries
               </Button>
             </div>
           </FadeIn>

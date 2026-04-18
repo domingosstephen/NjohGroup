@@ -76,7 +76,7 @@ export default async function CookiesPage({ params }: CookiesPageProps) {
               5. Contact
             </h2>
             <p className="mt-4">
-              For questions about our use of cookies, please contact us at{" "}
+              For enquiries regarding the use of cookies, direct correspondence to{" "}
               <a
                 href={`mailto:${EMAILS.general}`}
                 className="text-njoh-gold hover:text-gold-light transition-colors"
