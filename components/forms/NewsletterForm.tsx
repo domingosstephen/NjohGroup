@@ -45,7 +45,7 @@ export function NewsletterForm({ dict }: NewsletterFormProps) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex gap-3 max-w-md">
+    <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 sm:gap-3 w-full sm:max-w-md">
       <input
         name="email"
         type="email"

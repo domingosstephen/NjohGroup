@@ -47,7 +47,7 @@ export function Engage({ dict, prefix }: EngageProps) {
           </p>
         </FadeIn>
 
-        <StaggerContainer className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <StaggerContainer className="mt-8 sm:mt-12 lg:mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
           {cards.map((card) => (
             <StaggerItem key={card.href}>
               <CTACard title={card.title} href={card.href} />

@@ -101,7 +101,7 @@ export default async function CareersPage({ params }: CareersPageProps) {
 
           {/* Empty state */}
           <FadeIn delay={0.1}>
-            <div className="mt-8 border border-graphite/30 p-12 text-center">
+            <div className="mt-8 border border-graphite/30 p-6 sm:p-8 lg:p-12 text-center">
               <h3 className="font-display text-xl text-ivory">
                 No open roles at this time.
               </h3>
@@ -116,7 +116,7 @@ export default async function CareersPage({ params }: CareersPageProps) {
 
           {/* Talent pipeline form placeholder */}
           <FadeIn delay={0.2}>
-            <div className="mt-12 border border-graphite/30 p-8">
+            <div className="mt-8 sm:mt-12 border border-graphite/30 p-4 sm:p-6 lg:p-8">
               <h3 className="font-display text-lg text-ivory">
                 Join the talent pipeline.
               </h3>

@@ -89,7 +89,7 @@ export default async function InsightsPage({ params }: InsightsPageProps) {
 
           {/* Newsletter signup placeholder */}
           <FadeIn delay={0.2}>
-            <div className="mt-12 border border-stone/20 p-8 bg-white/50">
+            <div className="mt-8 sm:mt-12 border border-stone/20 p-4 sm:p-6 lg:p-8 bg-white/50">
               <h3 className="font-display text-lg text-obsidian">
                 Get notified when we publish.
               </h3>
@@ -115,7 +115,7 @@ export default async function InsightsPage({ params }: InsightsPageProps) {
 
           {/* In the meantime */}
           <FadeIn delay={0.3}>
-            <div className="mt-16">
+            <div className="mt-10 sm:mt-12 lg:mt-16">
               <p className="text-obsidian/60 text-sm">
                 In the meantime, read our founding thesis:
               </p>

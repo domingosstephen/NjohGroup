@@ -40,7 +40,7 @@ export function Footer({ locale, dict }: FooterProps) {
 
       <div className="mx-auto max-w-[1440px] px-6 lg:px-12 pt-20 pb-12">
         {/* Main footer grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 lg:gap-8">
           {/* Column 1 — Brand */}
           <div className="lg:col-span-1">
             <Logo locale={locale} />
@@ -140,7 +140,7 @@ export function Footer({ locale, dict }: FooterProps) {
         <div className="mt-16 h-px bg-graphite/50" />
 
         {/* Bottom bar */}
-        <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-6 sm:mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
           <p className="font-mono text-[0.625rem] uppercase tracking-[0.1em] text-ash/60">
             {t(dict, "footer.copyright")}
           </p>

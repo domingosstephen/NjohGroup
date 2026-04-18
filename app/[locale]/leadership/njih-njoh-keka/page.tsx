@@ -63,7 +63,7 @@ export default async function FounderProfilePage({
 
           {/* Why Brazil */}
           <FadeIn>
-            <div className="mt-20">
+            <div className="mt-12 sm:mt-16 lg:mt-20">
               <GoldRule width="40px" className="mb-4" />
               <h2 className="font-display text-[var(--text-h2)] text-obsidian leading-snug">
                 Why Brazil.
@@ -87,7 +87,7 @@ export default async function FounderProfilePage({
 
           {/* Thesis in his voice */}
           <FadeIn>
-            <div className="mt-20">
+            <div className="mt-12 sm:mt-16 lg:mt-20">
               <GoldRule width="40px" className="mb-4" />
               <h2 className="font-display text-[var(--text-h2)] text-obsidian leading-snug">
                 The thesis, in his words.
@@ -111,7 +111,7 @@ export default async function FounderProfilePage({
 
           {/* Prior Work */}
           <FadeIn>
-            <div className="mt-20">
+            <div className="mt-12 sm:mt-16 lg:mt-20">
               <GoldRule width="40px" className="mb-4" />
               <h2 className="font-display text-[var(--text-h2)] text-obsidian leading-snug">
                 Prior work.
@@ -126,9 +126,9 @@ export default async function FounderProfilePage({
 
           {/* Contact */}
           <FadeIn>
-            <div className="mt-20 border-t border-stone/20 pt-12">
+            <div className="mt-12 sm:mt-16 lg:mt-20 border-t border-stone/20 pt-12">
               <MonoLabel className="text-obsidian/50">CONNECT</MonoLabel>
-              <div className="mt-6 flex flex-wrap gap-4">
+              <div className="mt-6 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
                 <Button
                   variant="secondary"
                   size="md"

@@ -21,7 +21,7 @@ export function FounderMoment({ dict, prefix }: FounderMomentProps) {
   return (
     <section className="relative bg-ivory py-[var(--section-padding-y)] overflow-hidden">
       <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 xl:gap-24 items-center">
           {/* Left — Portrait */}
           <FadeIn direction="left">
             <div className="relative flex justify-center">
@@ -40,7 +40,7 @@ export function FounderMoment({ dict, prefix }: FounderMomentProps) {
                 className="left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
               />
               {/* Portrait circle */}
-              <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden border border-njoh-gold/20">
+              <div className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full overflow-hidden border border-njoh-gold/20">
                 {/* PLACEHOLDER — replace with Njoh Group commissioned photography */}
                 <div
                   className="absolute inset-0 bg-cover bg-center grayscale-[30%] sepia-[10%]"

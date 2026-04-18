@@ -42,7 +42,7 @@ export function SystemDiagram() {
           </p>
         </FadeIn>
 
-        <div ref={ref} className="relative mx-auto max-w-2xl">
+        <div ref={ref} className="relative mx-auto w-full max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-2xl">
           <svg
             viewBox="0 0 800 420"
             fill="none"

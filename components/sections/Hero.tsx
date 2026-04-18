@@ -53,7 +53,7 @@ export function Hero({ dict, prefix }: HeroProps) {
 
       {/* Spotlight beam — directional gold light from top-left */}
       <SpotlightBeam
-        className="-top-40 left-0 md:-top-20 md:left-60 z-[3]"
+        className="-top-20 -left-20 sm:left-0 md:-top-20 md:left-60 z-[3]"
         fill="#D4A24C"
       />
 
@@ -145,7 +145,7 @@ export function Hero({ dict, prefix }: HeroProps) {
 
         {/* Bottom-left metadata */}
         <motion.div
-          className="absolute bottom-8 left-6 lg:left-12"
+          className="absolute bottom-4 sm:bottom-8 left-4 sm:left-6 lg:left-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.6 }}
@@ -157,7 +157,7 @@ export function Hero({ dict, prefix }: HeroProps) {
 
         {/* Scroll indicator — animated line */}
         <motion.div
-          className="absolute bottom-8 right-6 lg:right-12 flex flex-col items-center gap-2"
+          className="absolute bottom-4 sm:bottom-8 right-4 sm:right-6 lg:right-12 flex flex-col items-center gap-2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 2 }}

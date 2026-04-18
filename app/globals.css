@@ -20,7 +20,7 @@
   --color-terracotta: #B85C38;
 
   /* Typography Scale */
-  --text-hero: clamp(3.5rem, 8vw, 7rem);
+  --text-hero: clamp(2.25rem, 8vw, 7rem);
   --text-display: clamp(2.5rem, 5vw, 4rem);
   --text-h1: clamp(2rem, 3.5vw, 3rem);
   --text-h2: clamp(1.5rem, 2.5vw, 2rem);
@@ -37,7 +37,7 @@
   --leading-relaxed: 1.7;
 
   /* Spacing */
-  --section-padding-y: clamp(80px, 10vw, 160px);
+  --section-padding-y: clamp(48px, 8vw, 160px);
   --container-max: 1440px;
   --reading-max: 700px;
 

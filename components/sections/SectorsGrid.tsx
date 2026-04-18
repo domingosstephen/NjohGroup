@@ -47,7 +47,7 @@ export function SectorsGrid({ dict, prefix }: SectorsGridProps) {
           </p>
         </FadeIn>
 
-        <StaggerContainer className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+        <StaggerContainer className="mt-8 sm:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 lg:gap-6">
           {SECTORS.map((sector, i) => (
             <StaggerItem key={sector.slug}>
               <SectorCard

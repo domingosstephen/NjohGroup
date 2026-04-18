@@ -49,10 +49,10 @@ export function InsightsTeaser({ dict, prefix }: InsightsTeaserProps) {
           </p>
         </FadeIn>
 
-        <StaggerContainer className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        <StaggerContainer className="mt-8 sm:mt-12 lg:mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 lg:gap-6 xl:gap-8">
           {placeholderArticles.map((article, i) => (
             <StaggerItem key={i}>
-              <div className="group relative border border-stone/20 p-6 lg:p-8 h-full transition-all duration-300 hover:border-njoh-gold/30 bg-ivory">
+              <div className="group relative border border-stone/20 p-4 sm:p-6 lg:p-8 h-full transition-all duration-300 hover:border-njoh-gold/30 bg-ivory">
                 <MonoLabel className="text-obsidian/50">{article.category}</MonoLabel>
                 <h3 className="mt-4 font-display text-xl text-obsidian leading-snug">
                   {article.title}

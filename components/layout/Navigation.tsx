@@ -106,7 +106,7 @@ export function Navigation({ locale, dict, isHomepage = false }: NavigationProps
 
           {/* Mobile hamburger */}
           <button
-            className="lg:hidden relative w-10 h-10 flex items-center justify-center"
+            className="lg:hidden relative w-12 h-12 flex items-center justify-center"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-expanded={mobileOpen}
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
@@ -166,7 +166,7 @@ export function Navigation({ locale, dict, isHomepage = false }: NavigationProps
                   <Link
                     href={link.href}
                     onClick={() => setMobileOpen(false)}
-                    className="font-display text-2xl text-ivory hover:text-njoh-gold transition-colors duration-200"
+                    className="font-display text-xl sm:text-2xl text-ivory hover:text-njoh-gold transition-colors duration-200"
                   >
                     {link.label}
                   </Link>

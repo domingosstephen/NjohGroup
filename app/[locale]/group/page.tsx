@@ -112,10 +112,10 @@ export default async function GroupPage({ params }: GroupPageProps) {
             <GoldRule width="40px" className="my-6" />
           </FadeIn>
 
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="mt-8 sm:mt-12 grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {OFFICES.map((office) => (
               <FadeIn key={office.city}>
-                <div className="border border-graphite/30 p-8">
+                <div className="border border-graphite/30 p-4 sm:p-6 lg:p-8">
                   <MonoLabel className="text-njoh-gold">
                     {office.label}
                   </MonoLabel>
@@ -169,7 +169,7 @@ export default async function GroupPage({ params }: GroupPageProps) {
             <GoldRule width="40px" className="my-6" />
           </FadeIn>
 
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="mt-8 sm:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
             {VALUES.map((value, i) => (
               <FadeIn key={value.title} delay={i * 0.05}>
                 <div>
@@ -199,7 +199,7 @@ export default async function GroupPage({ params }: GroupPageProps) {
             </p>
           </FadeIn>
           <FadeIn delay={0.2}>
-            <div className="mt-10 flex flex-wrap justify-center gap-4">
+            <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row sm:flex-wrap justify-center gap-3 sm:gap-4">
               <Button variant="primary" size="lg" href={`${prefix}/partners`}>
                 Partner with us
               </Button>

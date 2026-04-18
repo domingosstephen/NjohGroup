@@ -74,10 +74,10 @@ export default async function ContactPage({ params }: ContactPageProps) {
             <GoldRule width="40px" className="my-4" />
           </FadeIn>
 
-          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 lg:gap-6">
             {ROUTING_CARDS.map((card, i) => (
               <FadeIn key={card.label} delay={i * 0.05}>
-                <div className="border border-stone/20 p-8 hover:border-njoh-gold/40 transition-colors h-full">
+                <div className="border border-stone/20 p-4 sm:p-6 lg:p-8 hover:border-njoh-gold/40 transition-colors h-full">
                   <MonoLabel className="text-obsidian/50">{card.label}</MonoLabel>
                   <h3 className="mt-3 font-display text-lg text-obsidian">
                     {card.title}
@@ -119,10 +119,10 @@ export default async function ContactPage({ params }: ContactPageProps) {
             <GoldRule width="40px" className="my-6" />
           </FadeIn>
 
-          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {OFFICES.map((office, i) => (
               <FadeIn key={office.city} delay={i * 0.1}>
-                <div className="border border-graphite/30 p-8">
+                <div className="border border-graphite/30 p-4 sm:p-6 lg:p-8">
                   <MonoLabel className="text-njoh-gold">
                     {office.label}
                   </MonoLabel>

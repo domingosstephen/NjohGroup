@@ -44,7 +44,7 @@ export function SectorBand({
           }`}
         >
           {/* Content */}
-          <div className={`flex items-center py-16 lg:py-24 px-6 lg:px-16 ${imagePosition === "right" ? "" : "lg:[direction:ltr]"}`}>
+          <div className={`flex items-center py-8 sm:py-12 lg:py-20 xl:py-24 px-4 sm:px-6 lg:px-12 xl:px-16 ${imagePosition === "right" ? "" : "lg:[direction:ltr]"}`}>
             <FadeIn direction={imagePosition === "left" ? "right" : "left"}>
               <div className="max-w-lg">
                 <MonoLabel className={isDark ? "text-njoh-gold" : "text-stone"}>

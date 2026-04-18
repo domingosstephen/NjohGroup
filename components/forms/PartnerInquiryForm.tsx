@@ -41,7 +41,7 @@ export function PartnerInquiryForm() {
 
   if (status === "success") {
     return (
-      <div className="border border-njoh-gold/30 bg-graphite/30 p-12 text-center">
+      <div className="border border-njoh-gold/30 bg-graphite/30 p-4 sm:p-8 lg:p-12 text-center">
         <p className="text-ivory font-display text-lg">
           Thank you. Your inquiry has been received and will be routed to the appropriate team.
         </p>
@@ -97,7 +97,7 @@ export function PartnerInquiryForm() {
 
       <div>
         <label className={labelClass}>Sector of interest *</label>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-2">
           {["Real Estate", "Outsourcing", "Agriculture", "Logistics", "Group-level", "Other"].map(
             (sector) => (
               <label key={sector} className="flex items-center gap-2 text-sm text-ash cursor-pointer hover:text-ivory transition-colors">

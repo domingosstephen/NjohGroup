@@ -37,7 +37,7 @@ export function FootprintMap({ dict }: FootprintMapProps) {
         </FadeIn>
 
         <FadeIn delay={0.3}>
-          <div className="relative mx-auto max-w-4xl">
+          <div className="relative mx-auto max-w-sm sm:max-w-lg lg:max-w-4xl">
             <svg
               viewBox="0 0 900 500"
               fill="none"

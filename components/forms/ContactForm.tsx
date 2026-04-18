@@ -44,7 +44,7 @@ export function ContactForm({ dict }: ContactFormProps) {
 
   if (status === "success") {
     return (
-      <div className="border border-njoh-gold/30 bg-graphite/30 p-8 text-center">
+      <div className="border border-njoh-gold/30 bg-graphite/30 p-4 sm:p-6 lg:p-8 text-center">
         <p className="text-ivory font-display text-lg">{cm(dict, "thankYou")}</p>
       </div>
     );

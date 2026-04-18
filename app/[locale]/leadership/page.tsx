@@ -40,7 +40,7 @@ export default async function LeadershipPage({ params }: LeadershipPageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <FadeIn>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               {/* Portrait */}
               <div className="flex justify-center lg:justify-start">
                 <div className="w-72 h-72 rounded-full bg-stone/20 border border-stone/10 flex items-center justify-center">

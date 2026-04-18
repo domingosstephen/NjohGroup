@@ -98,7 +98,7 @@ export default async function OutsourcingPage({ params }: OutsourcingPageProps) 
             </h2>
           </FadeIn>
 
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-16">
+          <div className="mt-8 sm:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
             {verticals.map((v, i) => (
               <FadeIn key={v.title} delay={i * 0.15}>
                 <div className="border-t border-njoh-gold/30 pt-8">
@@ -164,7 +164,7 @@ export default async function OutsourcingPage({ params }: OutsourcingPageProps) 
           </FadeIn>
 
           <FadeIn delay={0.2}>
-            <div className="mt-12 flex flex-wrap justify-center gap-4">
+            <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row sm:flex-wrap justify-center gap-3 sm:gap-4">
               <Button variant="primary" size="lg" href={`${prefix}/partners`}>
                 Partner with us
               </Button>

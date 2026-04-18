@@ -53,7 +53,7 @@ export default async function PressPage({ params }: PressPageProps) {
           </FadeIn>
 
           <FadeIn delay={0.1}>
-            <div className="mt-8 border border-stone/20 p-8">
+            <div className="mt-8 border border-stone/20 p-4 sm:p-6 lg:p-8">
               <MonoLabel className="text-obsidian/50">APRIL 2026</MonoLabel>
               <h3 className="mt-3 font-display text-xl text-obsidian">
                 Njoh Group PLC Announces Digital Launch
@@ -110,7 +110,7 @@ export default async function PressPage({ params }: PressPageProps) {
           <div className="mt-8 space-y-4">
             {MEDIA_KIT_ASSETS.map((asset, i) => (
               <FadeIn key={asset.name} delay={i * 0.05}>
-                <div className="flex items-center justify-between border border-stone/20 p-6 hover:border-njoh-gold/40 transition-colors">
+                <div className="flex items-center justify-between border border-stone/20 p-4 sm:p-6 hover:border-njoh-gold/40 transition-colors">
                   <div>
                     <h3 className="font-display text-base text-obsidian">
                       {asset.name}

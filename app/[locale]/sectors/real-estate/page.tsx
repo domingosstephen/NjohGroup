@@ -106,7 +106,7 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
             </h2>
           </FadeIn>
 
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div className="mt-8 sm:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
             {disciplines.map((d, i) => (
               <FadeIn key={d.title} delay={i * 0.1}>
                 <div className="border-t border-njoh-gold/30 pt-8">
@@ -150,7 +150,7 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
               </div>
 
               {/* Services tiles */}
-              <div className="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-8">
+              <div className="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
                 {npmServices.map((service, i) => (
                   <FadeIn key={service.title} delay={i * 0.1}>
                     <div className="border border-graphite/15 p-8 rounded-sm">
@@ -186,7 +186,7 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
           </FadeIn>
 
           <FadeIn delay={0.2}>
-            <div className="mt-12 flex flex-wrap justify-center gap-4">
+            <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row sm:flex-wrap justify-center gap-3 sm:gap-4">
               <Button variant="secondary" size="lg" href={`${prefix}/sectors/logistics`}>
                 Explore Logistics
               </Button>

@@ -77,7 +77,7 @@ export default async function SectorsPage({ params }: SectorsPageProps) {
 
       {/* System diagram — Obsidian */}
       <section className="bg-obsidian py-[var(--section-padding-y)]">
-        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
+        <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-12">
           <FadeIn>
             <div className="text-center mb-16">
               <MonoLabel className="text-njoh-gold">THE NJOH SYSTEM</MonoLabel>
@@ -156,7 +156,7 @@ export default async function SectorsPage({ params }: SectorsPageProps) {
 
         return (
           <section key={sector.slug} className={`${bg} py-[var(--section-padding-y)]`}>
-            <div className={`mx-auto max-w-[1440px] px-6 lg:px-12 flex flex-col ${flexDir} gap-12 lg:gap-20 items-start`}>
+            <div className={`mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-12 flex flex-col ${flexDir} gap-6 sm:gap-8 lg:gap-12 xl:gap-20 items-start`}>
               {/* Image side */}
               <FadeIn direction={isEven ? "left" : "right"} className="w-full lg:w-1/2">
                 <div className="aspect-[4/3] bg-graphite/20 rounded-sm overflow-hidden">
@@ -237,7 +237,7 @@ export default async function SectorsPage({ params }: SectorsPageProps) {
 
       {/* Emerging focus — Ivory */}
       <section className="bg-ivory py-[var(--section-padding-y)]">
-        <div className="mx-auto max-w-[1440px] px-6 lg:px-12 text-center">
+        <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-12 text-center">
           <FadeIn>
             <MonoLabel className="text-njoh-gold">LOOKING AHEAD</MonoLabel>
             <h2 className="mt-4 font-display text-[var(--text-h2)] text-obsidian leading-snug">
