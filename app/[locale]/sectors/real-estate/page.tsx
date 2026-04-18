@@ -126,7 +126,7 @@ export default async function RealEstatePage({ params }: RealEstatePageProps) {
       <section className="bg-ivory py-[var(--section-padding-y)]">
         <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <FadeIn>
-            <div className="flex flex-col lg:flex-row gap-12 lg:gap-20">
+            <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 lg:gap-12 xl:gap-20">
               {/* Brand lockup */}
               <div className="lg:w-1/3">
                 <MonoLabel className="text-njoh-gold">OPERATING SUBSIDIARY</MonoLabel>
