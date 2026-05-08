@@ -28,7 +28,7 @@ export function NpmTestimonial() {
           </p>
           <div className="mt-8 flex flex-col items-center">
             <img
-              src="/founder-headshot.jpeg"
+              src="https://raw.githubusercontent.com/domingosstephen/NjohGroup/master/public/founder-headshot.jpeg"
               alt="Njih Njoh Keka, Founder and CEO of Njoh Group PLC"
               width={80}
               height={80}

@@ -40,7 +40,7 @@ Notes: ${(form.elements.namedItem("message") as HTMLTextAreaElement).value || "N
   }
 
   const inputClass =
-    "w-full bg-graphite/50 border border-graphite text-ivory px-4 py-3 text-sm focus:border-njoh-gold focus:outline-none transition-colors duration-200 placeholder:text-ash/40";
+    "w-full bg-ivory/10 border border-ivory/20 text-ivory px-4 py-3 text-sm focus:border-njoh-gold focus:outline-none transition-colors duration-200 placeholder:text-ivory/40";
 
   return (
     <section id="register" className="bg-ivory py-[var(--section-padding-y)]">
@@ -104,17 +104,17 @@ Notes: ${(form.elements.namedItem("message") as HTMLTextAreaElement).value || "N
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">
-                  <MonoLabel className="text-njoh-gold/60">PROPERTY DETAILS</MonoLabel>
+                  <MonoLabel className="text-njoh-gold">PROPERTY DETAILS</MonoLabel>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-4">
                     <div>
-                      <label htmlFor="npm-name" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ash/60 mb-2">
+                      <label htmlFor="npm-name" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ivory/70 mb-2">
                         Full name *
                       </label>
                       <input id="npm-name" name="name" type="text" required className={inputClass} />
                     </div>
                     <div>
-                      <label htmlFor="npm-email" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ash/60 mb-2">
+                      <label htmlFor="npm-email" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ivory/70 mb-2">
                         Email *
                       </label>
                       <input id="npm-email" name="email" type="email" required className={inputClass} />
@@ -123,13 +123,13 @@ Notes: ${(form.elements.namedItem("message") as HTMLTextAreaElement).value || "N
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
-                      <label htmlFor="npm-phone" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ash/60 mb-2">
+                      <label htmlFor="npm-phone" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ivory/70 mb-2">
                         Phone
                       </label>
                       <input id="npm-phone" name="phone" type="tel" className={inputClass} placeholder="+237..." />
                     </div>
                     <div>
-                      <label htmlFor="npm-type" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ash/60 mb-2">
+                      <label htmlFor="npm-type" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ivory/70 mb-2">
                         Property type *
                       </label>
                       <select id="npm-type" name="propertyType" required className={`${inputClass} appearance-none cursor-pointer`}>
@@ -144,13 +144,13 @@ Notes: ${(form.elements.namedItem("message") as HTMLTextAreaElement).value || "N
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
-                      <label htmlFor="npm-units" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ash/60 mb-2">
+                      <label htmlFor="npm-units" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ivory/70 mb-2">
                         Number of rental units
                       </label>
                       <input id="npm-units" name="units" type="text" className={inputClass} placeholder="e.g., 6" />
                     </div>
                     <div>
-                      <label htmlFor="npm-location" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ash/60 mb-2">
+                      <label htmlFor="npm-location" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ivory/70 mb-2">
                         Property location *
                       </label>
                       <input id="npm-location" name="location" type="text" required className={inputClass} placeholder="e.g., Yaoundé, Bastos" />
@@ -158,7 +158,7 @@ Notes: ${(form.elements.namedItem("message") as HTMLTextAreaElement).value || "N
                   </div>
 
                   <div>
-                    <label htmlFor="npm-message" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ash/60 mb-2">
+                    <label htmlFor="npm-message" className="block font-mono text-[0.625rem] uppercase tracking-wider text-ivory/70 mb-2">
                       Additional notes
                     </label>
                     <textarea
@@ -182,7 +182,7 @@ Notes: ${(form.elements.namedItem("message") as HTMLTextAreaElement).value || "N
                     {status === "submitting" ? "Registering..." : "Register my property"}
                   </button>
 
-                  <p className="text-ash/30 text-xs text-center font-mono tracking-wider">
+                  <p className="text-ivory/30 text-xs text-center font-mono tracking-wider">
                     No cost to register. No obligation to proceed.
                   </p>
                 </form>
