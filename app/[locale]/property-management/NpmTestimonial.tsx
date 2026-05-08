@@ -30,9 +30,9 @@ export function NpmTestimonial() {
             <img
               src="https://raw.githubusercontent.com/domingosstephen/NjohGroup/master/public/founder-headshot.jpeg"
               alt="Njih Njoh Keka, Founder and CEO of Njoh Group PLC"
-              width={80}
-              height={80}
-              className="w-20 h-20 rounded-full object-cover mb-4 border-2 border-njoh-gold/30"
+              width={120}
+              height={120}
+              className="w-28 h-28 rounded-full object-cover mb-4 border-2 border-njoh-gold/30"
             />
             <p className="font-display text-ivory text-base">Njih Njoh Keka</p>
             <p className="text-ash text-sm mt-1">
