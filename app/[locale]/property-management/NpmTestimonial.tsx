@@ -28,13 +28,15 @@ export function NpmTestimonial() {
             built NPM to deliver.&rdquo;
           </p>
           <div className="mt-8 flex flex-col items-center">
-            <Image
-              src="/founder-headshot.jpeg"
-              alt="Njih Njoh Keka, Founder &amp; CEO of Njoh Group PLC"
-              width={80}
-              height={80}
-              className="rounded-full object-cover mb-4 border-2 border-gold/30"
-            />
+            <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-njoh-gold/30 mb-4">
+              <Image
+                src="/founder-headshot.jpeg"
+                alt="Njih Njoh Keka, Founder and CEO of Njoh Group PLC"
+                width={80}
+                height={80}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <p className="font-display text-ivory text-base">Njih Njoh Keka</p>
             <p className="text-ash text-sm mt-1">
               Founder & CEO, Njoh Group PLC
