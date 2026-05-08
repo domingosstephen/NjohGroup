@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { FadeIn } from "@/components/ui/FadeIn";
 import { GoldGlow } from "@/components/ui/GoldGlow";
@@ -26,7 +27,14 @@ export function NpmTestimonial() {
             that any property investor in the world expects. That is what we
             built NPM to deliver.&rdquo;
           </p>
-          <div className="mt-8">
+          <div className="mt-8 flex flex-col items-center">
+            <Image
+              src="/founder-headshot.jpeg"
+              alt="Njih Njoh Keka, Founder &amp; CEO of Njoh Group PLC"
+              width={80}
+              height={80}
+              className="rounded-full object-cover mb-4 border-2 border-gold/30"
+            />
             <p className="font-display text-ivory text-base">Njih Njoh Keka</p>
             <p className="text-ash text-sm mt-1">
               Founder & CEO, Njoh Group PLC
